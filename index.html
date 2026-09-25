@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engagement Room</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%23E07A10' stroke='white' stroke-width='3'/></svg>">
+<style>
+  :root {
+    --bg: #fdf6ee;
+    --floor: #e9d9c4;
+    --ink: #3a2f27;
+    --muted: #8a7a68;
+    --bubble: #ffffff;
+    --bubble-border: #d8c4a8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+  }
+  header { padding: 20px 24px 4px; }
+  h1 { margin: 0 0 4px; font-size: 20px; }
+  .sub { color: var(--muted); font-size: 13px; }
+
+  #stage-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  #stage {
+    position: relative;
+    width: min(94vw, 860px);
+    aspect-ratio: 1 / 1;
+    background: var(--floor);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .orange {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    z-index: 2;
+  }
+
+  .bubble {
+    position: absolute;
+    transform: scale(0.6);
+    transform-origin: center bottom;
+    width: 150px;
+    visibility: hidden;
+    background: var(--bubble);
+    border: 1px solid var(--bubble-border);
+    border-radius: 10px;
+    padding: 6px 9px;
+    font-size: 11.5px;
+    line-height: 1.35;
+    color: var(--ink);
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    opacity: 0;
+    transition: opacity .3s ease-out, transform .3s ease-out, box-shadow .15s;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .bubble:hover {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+    border-color: var(--comment, #c65b1f);
+  }
+  .bubble .name {
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 2px;
+    color: #8a4a1f;
+  }
+  .bubble::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--bubble-border);
+  }
+  .bubble::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%) translateY(-1px);
+    border: 5px solid transparent;
+    border-top-color: var(--bubble);
+    z-index: 1;
+  }
+  .bubble.shown {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .bubble:not(a) { cursor: default; }
+  .bubble.front {
+    z-index: 50;
+    box-shadow: 0 5px 18px rgba(198,91,31,0.5);
+    border-color: #c65b1f;
+  }
+
+  #empty { padding: 40px 24px; color: var(--muted); }
+
+  #tip {
+    position: fixed;
+    display: none;
+    max-width: 220px;
+    background: var(--ink);
+    color: #fdf6ee;
+    font-size: 11.5px;
+    line-height: 1.35;
+    padding: 6px 9px;
+    border-radius: 6px;
+    pointer-events: none;
+    z-index: 100;
+    white-space: pre-line;
+  }
+
+  #threads-wrap { padding: 8px 20px 50px; }
+  #threads-wrap h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin: 0 0 10px;
+    color: var(--muted);
+    font-weight: 600;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #threads {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .thread-room {
+    background: #fff;
+    border: 1px solid var(--bubble-border);
+    border-radius: 10px;
+    min-height: 130px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: default;
+  }
+  .thread-room-by {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    color: var(--muted);
+  }
+  .thread-room-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #8a4a1f;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .thread-room-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 14px;
+    flex: 1;
+  }
+  .person-stack {
+    position: relative;
+    width: 22px;
+    height: 22px;
+  }
+  .stack-chip {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+    background-color: var(--floor);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: block;
+    animation: chip-in .2s ease-out;
+    transition: box-shadow .15s, border-color .15s;
+  }
+  .stack-chip:hover, .stack-chip.front { border-color: #c65b1f; box-shadow: 0 2px 6px rgba(198,91,31,0.4); }
+  @keyframes chip-in { from { opacity: 0; transform: scale(0.5); } to { opacity: 1; transform: scale(1); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Engagement Room</h1>
+  <div class="sub" id="dateline">Watch — click any bubble to open the message on Substack.</div>
+</header>
+<div id="stage-wrap"><div id="stage"></div></div>
+<div id="threads-wrap">
+  <h2>Threads</h2>
+  <div id="threads"></div>
+</div>
+<div id="empty" style="display:none;">No sessions in data.js yet — run <code>scripts/build_data.py</code>.</div>
+<div id="tip"></div>
+
+<script src="assets/oranges.js"></script>
+<script src="data.js"></script>
+<script>
+const ORANGE_SIZE = 56;
+const PAD = 24;
+const WALK_MS = 1100;
+const HOLD_MS = 1400;
+const STAGGER_MS = 450;
+const MAX_CONCURRENT = 3;
+let active = 0;
+
+function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function fullTextFor(s) {
+  const withBody = s.items.find(it => it.category === "comment" && it.body);
+  if (withBody) return withBody.body;
+  const likes = s.items.some(it => it.category === "like");
+  const restacks = s.items.some(it => it.category === "restack");
+  if (likes && restacks) return "♥ liked + restacked";
+  if (restacks) return "↻ restacked";
+  return "♥ liked";
+}
+
+function textFor(s) {
+  let t = fullTextFor(s);
+  if (t.length > 140) t = t.slice(0, 140) + "…";
+  return t;
+}
+
+function linkFor(s) {
+  const withBody = s.items.find(it => it.category === "comment" && it.body);
+  return (withBody || s.items[0]).link;
+}
+
+function timeFor(s) {
+  const d = new Date(s.first_at);
+  return d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+}
+
+const threadRooms = {}; // thread id -> { el, people: { handle: { el, count } } }
+
+const tipEl = document.getElementById("tip");
+function showTip(text, targetEl) {
+  tipEl.textContent = text;
+  tipEl.style.display = "block";
+  const r = targetEl.getBoundingClientRect();
+  let x = r.left + r.width / 2 - tipEl.offsetWidth / 2;
+  let y = r.top - tipEl.offsetHeight - 8;
+  x = Math.max(4, Math.min(x, window.innerWidth - tipEl.offsetWidth - 4));
+  if (y < 4) y = r.bottom + 8;
+  tipEl.style.left = x + "px";
+  tipEl.style.top = y + "px";
+}
+function hideTip() { tipEl.style.display = "none"; }
+
+function bringBubbleToFront(sid) {
+  document.querySelectorAll(".bubble.front, .stack-chip.front").forEach(el => el.classList.remove("front"));
+  const bubble = document.querySelector(`.bubble[data-sid="${sid}"]`);
+  if (bubble) bubble.classList.add("front");
+  document.querySelectorAll(`.stack-chip[data-sid="${sid}"]`).forEach(c => c.classList.add("front"));
+}
+
+function labelFor(threadId) {
+  const entry = (typeof THREAD_LABELS !== "undefined" && THREAD_LABELS[threadId]) || { text: "Conversation", by: null };
+  let short = entry.text;
+  if (short.length > 90) short = short.slice(0, 90) + "…";
+  return { short, full: entry.text, by: entry.by };
+}
+
+function ensureThreadRoom(threadId) {
+  if (threadRooms[threadId]) return threadRooms[threadId];
+  const el = document.createElement("div");
+  el.className = "thread-room";
+  const { short, full, by } = labelFor(threadId);
+  el.title = by ? `${by}:\n${full}` : full;
+
+  if (by) {
+    const byEl = document.createElement("div");
+    byEl.className = "thread-room-by";
+    byEl.textContent = by;
+    el.appendChild(byEl);
+  }
+
+  const labelEl = document.createElement("div");
+  labelEl.className = "thread-room-label";
+  labelEl.textContent = short;
+  el.appendChild(labelEl);
+
+  const chipsEl = document.createElement("div");
+  chipsEl.className = "thread-room-chips";
+  el.appendChild(chipsEl);
+
+  document.getElementById("threads").appendChild(el);
+  const room = { el, chipsEl, people: {} };
+  threadRooms[threadId] = room;
+  return room;
+}
+
+function ensurePersonStack(room, s) {
+  if (room.people[s.uid]) return room.people[s.uid];
+  const stack = document.createElement("div");
+  stack.className = "person-stack";
+  room.chipsEl.appendChild(stack);
+  const info = { el: stack, count: 0 };
+  room.people[s.uid] = info;
+  return info;
+}
+
+function settleSession(s, sid) {
+  s.items.forEach(item => {
+    const room = ensureThreadRoom(item.thread);
+    const info = ensurePersonStack(room, s);
+    const i = info.count++;
+    const chip = item.link ? document.createElement("a") : document.createElement("div");
+    chip.className = "stack-chip";
+    chip.dataset.sid = sid;
+    if (item.link) { chip.href = item.link; chip.target = "_blank"; chip.rel = "noopener"; }
+    chip.style.backgroundImage = `url(${ORANGE_IMGS[s.orange % ORANGE_IMGS.length]})`;
+    chip.style.left = (i * 5) + "px";
+    chip.style.top = (-i * 5) + "px";
+    chip.style.zIndex = i + 1;
+    const tipText = `${s.name || s.handle} • ${item.body || item.type.replace(/_/g, " ")}`;
+    chip.addEventListener("mouseenter", () => { bringBubbleToFront(sid); showTip(tipText, chip); });
+    chip.addEventListener("mouseleave", hideTip);
+    chip.addEventListener("click", () => bringBubbleToFront(sid));
+    info.el.appendChild(chip);
+  });
+}
+
+async function playSession(s, sid, stage) {
+  const w = stage.clientWidth;
+  const h = stage.clientHeight;
+  const restX = PAD + Math.random() * (w - PAD * 2 - ORANGE_SIZE);
+  const restY = PAD + Math.random() * (h - PAD * 2 - ORANGE_SIZE);
+
+  const edges = ["top", "right", "bottom", "left"];
+  const edge = edges[Math.floor(Math.random() * edges.length)];
+  let startX, startY;
+  if (edge === "left") { startX = -ORANGE_SIZE; startY = restY; }
+  else if (edge === "right") { startX = w; startY = restY; }
+  else if (edge === "top") { startX = restX; startY = -ORANGE_SIZE; }
+  else { startX = restX; startY = h; }
+
+  const img = document.createElement("img");
+  img.className = "orange";
+  img.src = ORANGE_IMGS[s.orange % ORANGE_IMGS.length];
+  img.alt = s.name || s.handle;
+  img.title = s.name || s.handle;
+  img.style.left = startX + "px";
+  img.style.top = startY + "px";
+  stage.appendChild(img);
+
+  await wait(20);
+  img.style.transition = `left ${WALK_MS}ms ease-out, top ${WALK_MS}ms ease-out`;
+  img.style.left = restX + "px";
+  img.style.top = restY + "px";
+  await wait(WALK_MS + 50);
+
+  const link = linkFor(s);
+  const bubble = link ? document.createElement("a") : document.createElement("div");
+  bubble.className = "bubble";
+  bubble.dataset.sid = sid;
+  if (link) { bubble.href = link; bubble.target = "_blank"; bubble.rel = "noopener"; }
+  const who = s.name || s.handle;
+  bubble.title = `${who} • ${timeFor(s)}\n\n${fullTextFor(s)}`;
+  const nameEl = document.createElement("div");
+  nameEl.className = "name";
+  nameEl.textContent = who;
+  const textEl = document.createElement("div");
+  textEl.textContent = textFor(s);
+  bubble.appendChild(nameEl);
+  bubble.appendChild(textEl);
+  stage.appendChild(bubble);
+
+  // Measure, then clamp so the bubble never pokes outside the room.
+  const margin = 6;
+  const bw = bubble.offsetWidth;
+  const bh = bubble.offsetHeight;
+  let bx = restX + ORANGE_SIZE / 2 - bw / 2;
+  let by = restY - bh - 8;
+  bx = Math.max(margin, Math.min(bx, w - bw - margin));
+  by = Math.max(margin, Math.min(by, h - bh - margin));
+  bubble.style.left = bx + "px";
+  bubble.style.top = by + "px";
+  bubble.style.visibility = "visible";
+  requestAnimationFrame(() => bubble.classList.add("shown"));
+
+  await wait(HOLD_MS);
+
+  img.style.left = startX + "px";
+  img.style.top = startY + "px";
+  await wait(WALK_MS);
+  img.remove();
+}
+
+async function run() {
+  const stage = document.getElementById("stage");
+  if (typeof SESSIONS === "undefined" || !SESSIONS.length) {
+    document.getElementById("empty").style.display = "block";
+    return;
+  }
+  document.getElementById("dateline").textContent =
+    `${SESSIONS.length} visits today — click any bubble to open the message on Substack`;
+
+  for (let sid = 0; sid < SESSIONS.length; sid++) {
+    const s = SESSIONS[sid];
+    while (active >= MAX_CONCURRENT) await wait(150);
+    active++;
+    playSession(s, sid, stage).then(() => {
+      active--;
+      settleSession(s, sid);
+    });
+    await wait(STAGGER_MS);
+  }
+}
+
+run();
+</script>
+</body>
+</html>
