@@ -15,24 +15,41 @@
     --bubble-border: #d8c4a8;
   }
   * { box-sizing: border-box; }
+  html, body {
+    height: 100%;
+  }
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background: var(--bg);
     color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
-  header { padding: 20px 24px 4px; }
+  header { padding: 16px 24px 10px; flex: 0 0 auto; }
   h1 { margin: 0 0 4px; font-size: 20px; }
   .sub { color: var(--muted); font-size: 13px; }
 
-  #stage-wrap {
+  #layout {
+    flex: 1 1 auto;
     display: flex;
+    gap: 16px;
+    padding: 0 20px 20px;
+    min-height: 0;
+  }
+
+  #stage-wrap {
+    flex: 2 1 0;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 20px;
+    min-width: 0;
+    min-height: 0;
   }
   #stage {
     position: relative;
-    width: min(94vw, 860px);
+    width: min(100%, calc(100vh - 150px));
     aspect-ratio: 1 / 1;
     background: var(--floor);
     border-radius: 12px;
@@ -123,24 +140,29 @@
     white-space: pre-line;
   }
 
-  #threads-wrap { padding: 8px 20px 50px; }
+  #threads-wrap {
+    flex: 1 1 0;
+    min-width: 300px;
+    max-width: 480px;
+    overflow-y: auto;
+    padding: 4px 4px 40px;
+  }
   #threads-wrap h2 {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .04em;
     margin: 0 0 10px;
+    padding: 4px 0 8px;
     color: var(--muted);
     font-weight: 600;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
   }
   #threads {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 14px;
-    max-width: 1200px;
-    margin: 0 auto;
   }
   .thread-room {
     background: #fff;
@@ -206,10 +228,12 @@
   <h1>Engagement Room</h1>
   <div class="sub" id="dateline">Watch — click any bubble to open the message on Substack.</div>
 </header>
-<div id="stage-wrap"><div id="stage"></div></div>
-<div id="threads-wrap">
-  <h2>Threads</h2>
-  <div id="threads"></div>
+<div id="layout">
+  <div id="stage-wrap"><div id="stage"></div></div>
+  <div id="threads-wrap">
+    <h2>Threads</h2>
+    <div id="threads"></div>
+  </div>
 </div>
 <div id="empty" style="display:none;">No sessions in data.js yet — run <code>scripts/build_data.py</code>.</div>
 <div id="tip"></div>
