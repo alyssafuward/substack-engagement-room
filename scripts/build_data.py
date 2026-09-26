@@ -1,22 +1,54 @@
 """
-One-off generator: reads substack-replies' replies.db and bakes today's
-comment/like activity into data.js as sessions (bursts of activity per
-person), in the spirit of first-replies' embedded `const data`.
+Generator: reads substack-replies' replies.db and bakes comment/like
+activity into data.js as sessions (bursts of activity per person), in the
+spirit of first-replies' embedded `const data`.
 
 Run locally, wherever replies.db lives:
     python3 scripts/build_data.py [YYYY-MM-DD] [path/to/replies.db]
+    python3 scripts/build_data.py --since 2026-09-25T05:30-07:00 [--until ...] [--db path]
 
-Defaults to today and ../substack-replies/replies.db.
+A bare date means that whole UTC day (defaults to today). --since/--until
+take ISO timestamps with any offset; --until defaults to now.
+Default db is ../substack-replies/replies.db.
 """
 import sys
 import json
 import sqlite3
 import hashlib
+import argparse
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
-DATE = sys.argv[1] if len(sys.argv) > 1 else datetime.now(timezone.utc).date().isoformat()
-DB_PATH = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(__file__).parent.parent.parent / "substack-replies" / "replies.db"
+
+def parse_ts(s):
+    """ISO timestamp (any offset, or none = UTC) -> UTC datetime."""
+    dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def db_ts(dt):
+    """Match replies.db's created_at format so string comparison works."""
+    return dt.strftime("%Y-%m-%dT%H:%M:%S.") + f"{dt.microsecond // 1000:03d}Z"
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("date", nargs="?", help="UTC day, YYYY-MM-DD (ignored if --since is given)")
+parser.add_argument("db", nargs="?", help="path to replies.db")
+parser.add_argument("--since", help="start timestamp, e.g. 2026-09-25T05:30-07:00")
+parser.add_argument("--until", help="end timestamp (default: now)")
+parser.add_argument("--db", dest="db_opt", help="path to replies.db")
+ARGS = parser.parse_args()
+
+if ARGS.since:
+    SINCE = parse_ts(ARGS.since)
+    UNTIL = parse_ts(ARGS.until) if ARGS.until else datetime.now(timezone.utc)
+else:
+    day = ARGS.date or datetime.now(timezone.utc).date().isoformat()
+    SINCE = parse_ts(day + "T00:00:00")
+    UNTIL = SINCE + timedelta(days=1)
+DB_PATH = Path(ARGS.db_opt or ARGS.db or Path(__file__).parent.parent.parent / "substack-replies" / "replies.db")
 HANDLE = "alyssafuward"
 
 # Reserved: Natalie Nicholson (user_id 354634571) always gets the guitar
@@ -87,9 +119,9 @@ def main():
                c.handle, c.name, c.user_id, c.body, c.post_url, c.post_id, c.ancestor_path
         from activity_items ai
         join comments c on c.id = ai.comment_id
-        where ai.type in {REPLY_TYPES} and date(ai.created_at) = ?
+        where ai.type in {REPLY_TYPES} and ai.created_at >= ? and ai.created_at < ?
         """,
-        (DATE,),
+        (db_ts(SINCE), db_ts(UNTIL)),
     ).fetchall()
     for r in rows:
         if not r["handle"]:
@@ -113,9 +145,9 @@ def main():
         f"""
         select type, raw_json, created_at
         from activity_items
-        where type in {LIKE_TYPES + RESTACK_TYPES} and date(created_at) = ?
+        where type in {LIKE_TYPES + RESTACK_TYPES} and created_at >= ? and created_at < ?
         """,
-        (DATE,),
+        (db_ts(SINCE), db_ts(UNTIL)),
     ).fetchall()
     for r in rows:
         d = json.loads(r["raw_json"])
@@ -208,7 +240,7 @@ def main():
     # someone else wrote looks like it's coming from Alyssa (and vice versa).
     thread_keys = {it["thread"] for s in sessions for it in s["items"]}
     thread_labels = {}
-    for key in thread_keys:
+    for key in sorted(thread_keys):
         label = "Conversation"
         by = None
         if key.startswith("t"):
@@ -243,6 +275,8 @@ def main():
         json.dump(sessions, f, ensure_ascii=False, indent=1)
         f.write(";\nconst THREAD_LABELS = ")
         json.dump(thread_labels, f, ensure_ascii=False, indent=1)
+        f.write(";\nconst RANGE = ")
+        json.dump({"since": db_ts(SINCE), "until": db_ts(UNTIL)}, f)
         f.write(";\n")
 
     print(f"{len(sessions)} sessions, {len(interactions)} interactions -> {out_path}")

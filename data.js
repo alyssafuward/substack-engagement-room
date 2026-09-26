@@ -4385,141 +4385,145 @@ const SESSIONS = [
  }
 ];
 const THREAD_LABELS = {
- "t345767025": {
-  "text": "Me saving articles on Substack is like frantically dog-earing ALL PAGES in a book 🤦‍♀️",
-  "by": "Ayushi Sardana"
+ "post-213434596": {
+  "text": "#3 / vulnerability hangover",
+  "by": null
  },
- "t342552559": {
-  "text": "86% of women in tech now use AI at work every week. \n\nThe old double standard came along for the ride.\n\nIn WIRED's 2026 Women in Tech Survey of 634 women, 86% said they use AI for work at least a few times a week. \n\nAdoption is not the story. The story is whose AI-assisted work gets praised and whose gets picked apart: women in the survey described sloppy output waved through when a man shipped it and the same work penalized when they did.\n\nA tool sold as the great leveler is absorbing the field's existing bias. \n\nNaming that now is the only way it does not get baked into the next decade of defaults.",
-  "by": "Code Like A Girl"
- },
- "t345805235": {
-  "text": "My morning just got SO bright because I got to meet with the wonderful, soul-uplifting @Natalie Nicholson !\n\nWe were supposed to record the voiceover for our chapter for AI Everywhere Vol 4, but we had too much to catch up on. (But it will get done, we promise, @Karen Smiley !).\n\nI wish everyone could be so lucky to start their day chatting with Natalie. (Including me haha.) ❤️❤️",
-  "by": "Alyssa Fu Ward, PhD"
- },
- "t346072849": {
-  "text": "I was so inspired by today, that I’ve been experimenting with all the things!\n\nHere’s one of at least three of those experiments. 👩🏻‍🔬🔬\n\nI tried animating the cover photos for my Tuesday personal essays.\n\nI gave the images to Claude Code and asked it to create gifs of the images zooming in and out.\n\nI thought I liked what it made (AI is so cool!!) so I shipped it.\n\nNow I think it’s a little too… robotic. 😂🤖\n\nI can’t change it for awhile, so if you want to check it out, mosey on over to Step Up Step Together’s home page! It won’t be there for long. 😆\n\nThank you @Natalie Nicholson for the inspiration and @AI Meets Girlboss 🦩 for the constant inspiration to test animated cover photos!",
-  "by": "Alyssa Fu Ward, PhD"
- },
- "t345082314": {
-  "text": "What if, we just practice no reliance on anything external.",
-  "by": "anna levitt 🫧"
+ "post-214601672": {
+  "text": "#4 / growing up in between",
+  "by": null
  },
  "post-217026849": {
   "text": "Weekly Field Notes | Sep 25, 2026",
   "by": null
  },
- "t345366398": {
-  "text": "Chang'e has company on the moon. There's a jade rabbit pounding medicine, and an osmanthus tree that can never be cut down. The osmanthus blooms around this time of year, so of course Mae and I had to put it everywhere.\n\nThe moon rabbit isn't only ours either. It turns up in Korea's Chuseok, Japan's Tsukimi and Vietnam's Tết Trung Thu. Same moon, different stories.\n\nWhich makes me curious about yours. \n\nDoes your culture have a night like this—a night to look up, give thanks or go home? (I guess that's Thanksgiving, huh.) Or is there a festival coming up the rest of us should know about? Tell me in the comments. I'll read every one.\n\nP.S. Easter egg in the picture!\n\nHint: It's fluffy.",
-  "by": "Monica Goh"
- },
- "t345802140": {
-  "text": "It was almost a year ago that I entered a hackathon to build with fellow-minded women. Even though I didn’t make the cut to officially participate, I still built an app in 48 hours. And documented my process. https://iwasgonnadoit.substack.com/p/the-vibe-coding-diaries-how-to-vibe\n\nNow, Lovable is starting the 4th round of their SheBuilds hackathon. My mind is not in ideation mode so I won’t, but I’d encourage everyone to give it a go. There is nothing more satisfying than building with others, whilst learning from experts. 😉\n\nGo and apply here and show us what you create: https://shebuilds.lovable.app/",
-  "by": "Aniko"
- },
- "t345980233": {
-  "text": "Husband called to chat with me, but I was so in the zone I have no idea what we talked about. I think he’s on his way home and told me when he’d be here. \n\nI feel kind of bad about that. But the zone!!!!!!",
-  "by": "Alison MacLellan"
- },
- "t345839982": {
-  "text": "I invite you to do this today:",
-  "by": "Caitlin McColl 🇨🇦"
- },
- "t345524528": {
-  "text": "Dropping some random Friday inspiration. 🩷🦩\n\nRoaming the streets and shops in Madrid’s art district, and this reminded me of my good friend @Alyssa Fu Ward, PhD. A combination of her oranges and the shade of blue she likes. 🍊💙",
+ "t289403231": {
+  "text": "I have a new visual identity crush: The Quiet Rebellion by @Jessica .\n\nHer images have such a clear photographic signature. Saturated reds and pinks, retro-glam styling, cinematic lighting, theatrical props, and a powerful direct eye contact!\n\nWhat I appreciate most is the consistency. Every image feels like it belongs to the same world, but without becoming repetitive. For anyone building a visual brand, this is a very good reminder that consistency does not mean using the same template forever. You can do it like Jessica!\n\nThe flamingos approve. 🩷🦩\n\nhttps://www.jointherebellion.rebelarketype.com/p/pretty-doesnt-stop-the-scroll",
   "by": "AI Meets Girlboss 🦩"
  },
- "t344818382": {
-  "text": "Your ladies are taking over the Technology Rising list!\n\nStep Up Step Together is #85! (Thank you @Anna Sutton for your support!)\n\nAnd congratulations to the other fabulous ladies who brighten up this corner of Substack with your heart, passion, and unparalleled expertise. Let’s goooo! 🚀🥳🎉\n\n#22 @Shae O.\n\n#42 @Mia Kiraki 🎭\n\n#81 @Kristina Bogović\n\n#85 @Alyssa Fu Ward, PhD\n\n#86 @Rebecca Spitzer\n\n#91 @AI Meets Girlboss 🦩\n\nCongratulations queens!\n\nAnd thank you @Calder Quinn for the heads up!",
-  "by": "Alyssa Fu Ward, PhD"
- },
- "t345509132": {
-  "text": "I don’t restack my own stuff\n\nDoes it work?\n\nI think I did it once or twice and I thought sod this, if others don’t think it good enough to restack, why should I\n\nI wonder if I’m missing something here",
-  "by": "Lyndon Antcliff"
- },
- "t345882578": {
-  "text": "Lost a duck today. Absolutely heartbroken because it was one of a bonded pair and only 6 months old. And because I loved him and raised him from when he was so tiny. Brie our duck is wandering and looking for Gorgie. \n\nHad to spring into action and some new flock mates because we have two separate groups and she is lonely. \n\nDoes not get easier and my heart hurts Not the fun part of having a little microfarm, especially as an animal lover  and empath. I can only hope he did not suffer.\n\nEff you today, mother nature. 🙁🩷",
-  "by": "Jen Benford✨"
- },
- "t345683600": {
-  "text": "I’m having one of those burn-down-everything-I’ve-written-and-start-over days.\n\nSomehow it always seems to coincide with publish-a-new-article days, hmmm. 🤔\n\nThis is when I try to remind myself of a few things:\n\n1) I don’t want my self-worth and well-being to be tied to how many people respond to or Like my posts. I want to be glad that I did it at all and trust that it will reach the people it’s meant to when it’s meant to.\n\n2) I want to appreciate the people who drop by and made the decision to Like or respond. That’s where my focus should go.\n\n3) Embrace the unknown, girl, c’mon.It’s hard not to put pressure on myself when I have over 1000 subscribers now (!! Thank you for being here!) and unsubcribes every time I post a new article. But I’m trying to hold on to my intention that I’m still learning here, I want to experiment, and I know so many of you are here for the ride.\n\nWhew, okay, now that that’s out there, I can go back to my real life. \n\n\n\nSpeaking of real, @Natalie Nicholson and I are going to be doing our voiceover recording for the chapter we wrote for AI Everywhere Vol 4! Just the pep-me-up that I need. 😁 We are so excited to share this article with you so soon!",
-  "by": "Alyssa Fu Ward, PhD"
- },
- "t346074038": {
-  "text": "That's a wrap on my first ever live.\n\nAmal's too, actually. Two first-timers. I sounded like I was rambling and Amal was just a natural. Calm, collected, like she'd done this a hundred times.\n\nTechnical gremlins showed up on cue. Video down. Sound down. Black screen for a stretch that felt a lot longer than it probably was.\n\nIf I were still in television, that kind of dead air would've gotten me in hot soup. Black screen is rule number one you never break. Thankfully, nobody fires you from your own garden.\n\nThe bit that stuck with me: when she said most people don't even know Tunisia exists. I think we should've played up the Star Wars thing more as the hook, then revealed the real Tunisia underneath.\n\nI’ll be sharing the replay and/or a post mortem about it soon. \n\nAnd if the Live we did made you curious about Tunisia, her Substack's the place to actually go plan a trip there. Please reach out to @Traveling Amal!\n\nWe’ll be back.",
-  "by": "Monica Goh"
- },
- "t345558847": {
-  "text": "6:30am - finally on our way home! On the hour 45 min ferry ⛴️ \n\nSee for context:\n\nhttps://substack.com/@caitlinmccoll/note/c-345523074?r=it0tb",
-  "by": "Caitlin McColl 🇨🇦"
- },
- "t346185601": {
-  "text": "Everyone is in the inner chamber now. Well Elian in place of Rowan.  \n\nMonday I’ll give them a problem to solve so we see how it goes.\n\nDamn it’s been a good week!",
-  "by": "Alison MacLellan"
- },
- "t345471043": {
-  "text": "🙏🏻-mantis wishing you a lucky weekend ✨",
-  "by": "Jen Benford✨"
- },
- "t344935760": {
-  "text": "My mom said she liked my Weekly Field Notes. She very rarely reads what I write. So this feels really special. 🥹😭❤️",
-  "by": "Alyssa Fu Ward, PhD"
- },
- "t345874902": {
-  "text": "It’s the end of a whirlwind of a week, but it was so fun! \n\nExcited to get a little “offline” time this weekend, but why is that so hard to do with Substack?! 🤪😬😅",
-  "by": "Danielle Wright"
- },
- "t346157321": {
-  "text": "Watch my coming interview with these 2 beautiful ladies .. coming soon to discuss their chapter together",
-  "by": "Farida Khalaf"
+ "t339935903": {
+  "text": "I made this AI video from one character sheet and one storyboard.\n\nBefore I opened Seedance, every shot was already decided.\n\nThat changed what I was asking Seedance to do: animate the story instead of inventing it.\n\nCharacter → Storyboard → Video.",
+  "by": "Clayton H"
  },
  "t342011907": {
   "text": "There is a check in my pipeline that has never once returned a failure.\n\nFor a long time I read that as reliability. \n\nThen I asked what would actually have to happen for it to fail, and worked out that nothing would. \n\nIt cannot fail. \n\nIt was never checking anything.\n\nWhat is yours? \n\nThe one that has been green so long you stopped reading it.",
   "by": "Sumaiya Shrabony"
  },
- "t345720382": {
-  "text": "@Alyssa Fu Ward, PhD is one of those people I met on here, and instantly felt like I knew forever. But to get to know her even better through these field notes has been such a gift! \n\nWatching you do foldology just made my brain relax. Seeing @Anna Sutton’s article in here made my heart happy. And reading your daughter’s poem had my jaw dropped to the floor. It honestly gave me the goosebumps.",
-  "by": "Natalie Nicholson"
- },
- "t343636161": {
-  "text": "My daughter got this wacko Rubik’s Cube called an Axis cube for her birthday.\n\nWe finally scrambled it.\n\nThen we tried to solve it.\n\nWe couldn’t figure it out, so we looked up a tutorial video.\n\nTwo minutes in, and she’s already figuring it out.\n\nI want my turn. 😆",
+ "t342414385": {
+  "text": "Your voice matters. Stop second-guessing yourself and let it shine through.\n\nOn Dec 29, 2022, my second Substack post ever was on why I write.\n\nSitting here three and a half years later, I’m still defining why I write.\n\nBut going back to the beginning reminded me that I started writing because I wanted to see more content written by women and underrepresented voices.\n\nAnd if I wanted that, I’d have to start to with me.\n\nWhat struck me about going back was how that theme has been there throughout my time here. It’s just it lost its potency along the way.\n\nBut it goes to show — The answers for why you’re here are in you somewhere. Let them out. We need to hear your voice.",
   "by": "Alyssa Fu Ward, PhD"
  },
- "t345181171": {
-  "text": "I’m just here, staring at my Claude, hoping it’ll return a flowchart that will help me make sense of a complicated mess.\n\nBut seriously, AI is incredible. I just pointed it to a ton of conversations, and it’s helping me piece together all the threads and details.\n\nAnd then I get to do what I do best and ask other humans human questions to get human answers that the AI can then incorporate back into my flowchart.\n\nAmazing. 🤩❤️",
-  "by": "Alyssa Fu Ward, PhD"
- },
- "post-213434596": {
-  "text": "#3 / vulnerability hangover",
-  "by": null
- },
- "t345877031": {
-  "text": "A few days ago I shared a note saying I was ready to figure out what it would look like to operate like 2-3 of me. \n\nWell, I’m doing it.\n\nI’m building Cécile, my own visual, proactive AI system, in public. I have a pretty clear idea of what I want her to become and absolutely no expectation that I’ll get there in a straight line.\n\nSo if you’re curious about personal agents and automations or what comes after the chat box, come trial-and-error your way through it with me.\n\nI’ll share what I build, what works, what breaks, and what I change my mind about. And maybe at he end I’ll have something resembling a product but very TBD.",
-  "by": "Amy Benner Anand"
- },
- "t345874022": {
-  "text": "My dog is very sick and so I thought I’d run an AI experiment to make it really easy to notice what “helpful” AI edits can do to your Substack post.\n\nThis kind of stuff is calming and fun for me.\n\nI’ve included my favorite bad decision + all the regrets prompts as well as what they did to my favorite scene from Steel Magnolias.",
-  "by": "Judy Ossello (AI Mechanic)"
+ "t342552559": {
+  "text": "86% of women in tech now use AI at work every week. \n\nThe old double standard came along for the ride.\n\nIn WIRED's 2026 Women in Tech Survey of 634 women, 86% said they use AI for work at least a few times a week. \n\nAdoption is not the story. The story is whose AI-assisted work gets praised and whose gets picked apart: women in the survey described sloppy output waved through when a man shipped it and the same work penalized when they did.\n\nA tool sold as the great leveler is absorbing the field's existing bias. \n\nNaming that now is the only way it does not get baked into the next decade of defaults.",
+  "by": "Code Like A Girl"
  },
  "t342553964": {
   "text": "Seniority does not shield women in tech from harassment. \n\nThe longer they stay, the more of it they report.\n\nIn WIRED's 2026 Women in Tech Survey of 634 women, more than a third said they had experienced gender-based harassment or bias at work, and the likelihood rose with time in the field. \n\nThat is the opposite of how tenure is supposed to work. \n\nYears are meant to buy standing and safety, and instead they stack up incidents. \n\nCompanies that track harassment by tenure, rather than writing it off as early-career growing pains, would finally see the pattern they keep missing.",
   "by": "Code Like A Girl"
  },
+ "t343636161": {
+  "text": "My daughter got this wacko Rubik’s Cube called an Axis cube for her birthday.\n\nWe finally scrambled it.\n\nThen we tried to solve it.\n\nWe couldn’t figure it out, so we looked up a tutorial video.\n\nTwo minutes in, and she’s already figuring it out.\n\nI want my turn. 😆",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t344799626": {
+  "text": "I’ve been talking recently about doing the “fun” stuff on here: \n\nDM chats, Lives, Supporting Lives, etc. Don’t get me wrong, Engagement is SO important and it is probably my main reason I’m still here.\n\nIf you are limited on time though, how do you choose what to focus on?\n\nComing up with a plan on this for myself and will be sure to share. 😎",
+  "by": "Danielle Wright"
+ },
  "t344806795": {
   "text": "Confidence isn’t believing you’re enough.\n\nIt’s forgetting to keep score in the first place. ✨",
   "by": "Shannon Bindler"
+ },
+ "t344818382": {
+  "text": "Your ladies are taking over the Technology Rising list!\n\nStep Up Step Together is #85! (Thank you @Anna Sutton for your support!)\n\nAnd congratulations to the other fabulous ladies who brighten up this corner of Substack with your heart, passion, and unparalleled expertise. Let’s goooo! 🚀🥳🎉\n\n#22 @Shae O.\n\n#42 @Mia Kiraki 🎭\n\n#81 @Kristina Bogović\n\n#85 @Alyssa Fu Ward, PhD\n\n#86 @Rebecca Spitzer\n\n#91 @AI Meets Girlboss 🦩\n\nCongratulations queens!\n\nAnd thank you @Calder Quinn for the heads up!",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t344935760": {
+  "text": "My mom said she liked my Weekly Field Notes. She very rarely reads what I write. So this feels really special. 🥹😭❤️",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t344969940": {
+  "text": "New addition to the Substack Runway I'm highlighting women joining the AI Meets Girlboss community. They get a page in my Sketchbook, a little runway celebrating women building distinctive worlds on Substack.\n\nThis one highlights @Dr Teodora Szasz of Standout Systems by Teodora. Thank you @Alyssa Fu Ward, PhD for nominating Teodora. I appreciate when women support women.\n\nTeodora spends her weekdays building AI products and shaping business strategy, then spends her Substack teaching senior AI/ML professionals the one skill their job description forgot to mention: making their own work visible.\n\n📐 Her look is called Ledger of Proof, a structured navy power suit with fine gold ledger-line embroidery tracing the lapels, because she's spent her career turning quiet expertise into a case too solid to talk over.\n\nDo you want your own page in the sketchbook? Submit it through the link below and get 25% off your annual subscription to AI Meets Girlboss.\n\nhttps://aimeetsgirlboss.lovable.app/sketchbook/womens-runway",
+  "by": "AI Meets Girlboss 🦩"
  },
  "t345060635": {
   "text": "Woo celebrating 9 weeks and 9 articles on Substack! We keep going. 💃🏻🧡✨",
   "by": "Erin-Marie Driscoll"
  },
+ "t345082314": {
+  "text": "What if, we just practice no reliance on anything external.",
+  "by": "anna levitt 🫧"
+ },
+ "t345181171": {
+  "text": "I’m just here, staring at my Claude, hoping it’ll return a flowchart that will help me make sense of a complicated mess.\n\nBut seriously, AI is incredible. I just pointed it to a ton of conversations, and it’s helping me piece together all the threads and details.\n\nAnd then I get to do what I do best and ask other humans human questions to get human answers that the AI can then incorporate back into my flowchart.\n\nAmazing. 🤩❤️",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t345364371": {
+  "text": "Ugh.  We've been stuck on a ferry not moving for an hour and a half cuz it has mechanical issues… it's almost midnight. \n\nThe ferry is an hour and a 45 minutes long, IF we get moving! I've never been on a ferry that has had mechanical issues before! (And I've been on a lot of ferries). I wonder what happens if we all have to get off…how do we get off?! It's a bunch of cars! Do we reverse off?? Do we have to abandon our cars?!\n\nUPDATE:\n\nWe've just been told they can't fix the issue so all vehicle and foot passengers will be disembarking…how i do not know! Lol\n\nWe've been in our car for about 2 hours! We went upstairs briefly to the main deck to get a coffee but that was closed too!\n\nOnce we disembark we'll be heading back to my dad's to stay overnight….at about 1am! Lol",
+  "by": "Caitlin McColl 🇨🇦"
+ },
+ "t345366398": {
+  "text": "Chang'e has company on the moon. There's a jade rabbit pounding medicine, and an osmanthus tree that can never be cut down. The osmanthus blooms around this time of year, so of course Mae and I had to put it everywhere.\n\nThe moon rabbit isn't only ours either. It turns up in Korea's Chuseok, Japan's Tsukimi and Vietnam's Tết Trung Thu. Same moon, different stories.\n\nWhich makes me curious about yours. \n\nDoes your culture have a night like this—a night to look up, give thanks or go home? (I guess that's Thanksgiving, huh.) Or is there a festival coming up the rest of us should know about? Tell me in the comments. I'll read every one.\n\nP.S. Easter egg in the picture!\n\nHint: It's fluffy.",
+  "by": "Monica Goh"
+ },
+ "t345471043": {
+  "text": "🙏🏻-mantis wishing you a lucky weekend ✨",
+  "by": "Jen Benford✨"
+ },
+ "t345509132": {
+  "text": "I don’t restack my own stuff\n\nDoes it work?\n\nI think I did it once or twice and I thought sod this, if others don’t think it good enough to restack, why should I\n\nI wonder if I’m missing something here",
+  "by": "Lyndon Antcliff"
+ },
+ "t345524528": {
+  "text": "Dropping some random Friday inspiration. 🩷🦩\n\nRoaming the streets and shops in Madrid’s art district, and this reminded me of my good friend @Alyssa Fu Ward, PhD. A combination of her oranges and the shade of blue she likes. 🍊💙",
+  "by": "AI Meets Girlboss 🦩"
+ },
+ "t345558847": {
+  "text": "6:30am - finally on our way home! On the hour 45 min ferry ⛴️ \n\nSee for context:\n\nhttps://substack.com/@caitlinmccoll/note/c-345523074?r=it0tb",
+  "by": "Caitlin McColl 🇨🇦"
+ },
  "t345612310": {
   "text": "Give yourself permission to be a grown-up kid by playing games with your children. 🤪\n\nIf the directions are unclear, sit shoulder to shoulder and look up how-to videos.\n\nShow them that learning together can be fun!\n\nYou might even discover that laughter and brain twists are an excellent combo for connecting with your kids. ❤️",
   "by": "Straight Talk from a Tutor"
  },
- "t339935903": {
-  "text": "I made this AI video from one character sheet and one storyboard.\n\nBefore I opened Seedance, every shot was already decided.\n\nThat changed what I was asking Seedance to do: animate the story instead of inventing it.\n\nCharacter → Storyboard → Video.",
-  "by": "Clayton H"
+ "t345683600": {
+  "text": "I’m having one of those burn-down-everything-I’ve-written-and-start-over days.\n\nSomehow it always seems to coincide with publish-a-new-article days, hmmm. 🤔\n\nThis is when I try to remind myself of a few things:\n\n1) I don’t want my self-worth and well-being to be tied to how many people respond to or Like my posts. I want to be glad that I did it at all and trust that it will reach the people it’s meant to when it’s meant to.\n\n2) I want to appreciate the people who drop by and made the decision to Like or respond. That’s where my focus should go.\n\n3) Embrace the unknown, girl, c’mon.It’s hard not to put pressure on myself when I have over 1000 subscribers now (!! Thank you for being here!) and unsubcribes every time I post a new article. But I’m trying to hold on to my intention that I’m still learning here, I want to experiment, and I know so many of you are here for the ride.\n\nWhew, okay, now that that’s out there, I can go back to my real life. \n\n\n\nSpeaking of real, @Natalie Nicholson and I are going to be doing our voiceover recording for the chapter we wrote for AI Everywhere Vol 4! Just the pep-me-up that I need. 😁 We are so excited to share this article with you so soon!",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t345720382": {
+  "text": "@Alyssa Fu Ward, PhD is one of those people I met on here, and instantly felt like I knew forever. But to get to know her even better through these field notes has been such a gift! \n\nWatching you do foldology just made my brain relax. Seeing @Anna Sutton’s article in here made my heart happy. And reading your daughter’s poem had my jaw dropped to the floor. It honestly gave me the goosebumps.",
+  "by": "Natalie Nicholson"
+ },
+ "t345767025": {
+  "text": "Me saving articles on Substack is like frantically dog-earing ALL PAGES in a book 🤦‍♀️",
+  "by": "Ayushi Sardana"
+ },
+ "t345802140": {
+  "text": "It was almost a year ago that I entered a hackathon to build with fellow-minded women. Even though I didn’t make the cut to officially participate, I still built an app in 48 hours. And documented my process. https://iwasgonnadoit.substack.com/p/the-vibe-coding-diaries-how-to-vibe\n\nNow, Lovable is starting the 4th round of their SheBuilds hackathon. My mind is not in ideation mode so I won’t, but I’d encourage everyone to give it a go. There is nothing more satisfying than building with others, whilst learning from experts. 😉\n\nGo and apply here and show us what you create: https://shebuilds.lovable.app/",
+  "by": "Aniko"
+ },
+ "t345805235": {
+  "text": "My morning just got SO bright because I got to meet with the wonderful, soul-uplifting @Natalie Nicholson !\n\nWe were supposed to record the voiceover for our chapter for AI Everywhere Vol 4, but we had too much to catch up on. (But it will get done, we promise, @Karen Smiley !).\n\nI wish everyone could be so lucky to start their day chatting with Natalie. (Including me haha.) ❤️❤️",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t345839982": {
+  "text": "I invite you to do this today:",
+  "by": "Caitlin McColl 🇨🇦"
+ },
+ "t345874022": {
+  "text": "My dog is very sick and so I thought I’d run an AI experiment to make it really easy to notice what “helpful” AI edits can do to your Substack post.\n\nThis kind of stuff is calming and fun for me.\n\nI’ve included my favorite bad decision + all the regrets prompts as well as what they did to my favorite scene from Steel Magnolias.",
+  "by": "Judy Ossello (AI Mechanic)"
+ },
+ "t345874902": {
+  "text": "It’s the end of a whirlwind of a week, but it was so fun! \n\nExcited to get a little “offline” time this weekend, but why is that so hard to do with Substack?! 🤪😬😅",
+  "by": "Danielle Wright"
+ },
+ "t345877031": {
+  "text": "A few days ago I shared a note saying I was ready to figure out what it would look like to operate like 2-3 of me. \n\nWell, I’m doing it.\n\nI’m building Cécile, my own visual, proactive AI system, in public. I have a pretty clear idea of what I want her to become and absolutely no expectation that I’ll get there in a straight line.\n\nSo if you’re curious about personal agents and automations or what comes after the chat box, come trial-and-error your way through it with me.\n\nI’ll share what I build, what works, what breaks, and what I change my mind about. And maybe at he end I’ll have something resembling a product but very TBD.",
+  "by": "Amy Benner Anand"
+ },
+ "t345882578": {
+  "text": "Lost a duck today. Absolutely heartbroken because it was one of a bonded pair and only 6 months old. And because I loved him and raised him from when he was so tiny. Brie our duck is wandering and looking for Gorgie. \n\nHad to spring into action and some new flock mates because we have two separate groups and she is lonely. \n\nDoes not get easier and my heart hurts Not the fun part of having a little microfarm, especially as an animal lover  and empath. I can only hope he did not suffer.\n\nEff you today, mother nature. 🙁🩷",
+  "by": "Jen Benford✨"
  },
  "t345920583": {
   "text": "Argh. Tonight’s session with Claude took much more of my time and cool than I had originally planned. Not pleased with myself for staying up so late and NOT pleased with Claude for taking me down to dead-ends more than once, and deciding on some utterly bizarre and time- (and token-) consuming actions. \n\nI am officially declaring tomorrow a Substack- and AI-free zone.😮‍💨",
@@ -4529,32 +4533,29 @@ const THREAD_LABELS = {
   "text": "Today has been such an incredible Substack day. My heart feels so full.\n\nI’ll share more in a bit, but as a thank you to everyone I interacted with today, I created a little surprise.\n\nI’m still working on it, but here is the teensiest little teaser.\n\nI am so excited to share this with you. I can’t stop cackling. 😂🧙\n\n(@Alison MacLellan @Jen Benford✨ there must have been something in the water this week…)",
   "by": "Alyssa Fu Ward, PhD"
  },
- "t289403231": {
-  "text": "I have a new visual identity crush: The Quiet Rebellion by @Jessica .\n\nHer images have such a clear photographic signature. Saturated reds and pinks, retro-glam styling, cinematic lighting, theatrical props, and a powerful direct eye contact!\n\nWhat I appreciate most is the consistency. Every image feels like it belongs to the same world, but without becoming repetitive. For anyone building a visual brand, this is a very good reminder that consistency does not mean using the same template forever. You can do it like Jessica!\n\nThe flamingos approve. 🩷🦩\n\nhttps://www.jointherebellion.rebelarketype.com/p/pretty-doesnt-stop-the-scroll",
-  "by": "AI Meets Girlboss 🦩"
- },
- "t344969940": {
-  "text": "New addition to the Substack Runway I'm highlighting women joining the AI Meets Girlboss community. They get a page in my Sketchbook, a little runway celebrating women building distinctive worlds on Substack.\n\nThis one highlights @Dr Teodora Szasz of Standout Systems by Teodora. Thank you @Alyssa Fu Ward, PhD for nominating Teodora. I appreciate when women support women.\n\nTeodora spends her weekdays building AI products and shaping business strategy, then spends her Substack teaching senior AI/ML professionals the one skill their job description forgot to mention: making their own work visible.\n\n📐 Her look is called Ledger of Proof, a structured navy power suit with fine gold ledger-line embroidery tracing the lapels, because she's spent her career turning quiet expertise into a case too solid to talk over.\n\nDo you want your own page in the sketchbook? Submit it through the link below and get 25% off your annual subscription to AI Meets Girlboss.\n\nhttps://aimeetsgirlboss.lovable.app/sketchbook/womens-runway",
-  "by": "AI Meets Girlboss 🦩"
+ "t345980233": {
+  "text": "Husband called to chat with me, but I was so in the zone I have no idea what we talked about. I think he’s on his way home and told me when he’d be here. \n\nI feel kind of bad about that. But the zone!!!!!!",
+  "by": "Alison MacLellan"
  },
  "t346027668": {
   "text": "Color is ENERGY ⚡️\n\nPalette is MOOD 😎",
   "by": "Natalie Nicholson"
  },
- "t345364371": {
-  "text": "Ugh.  We've been stuck on a ferry not moving for an hour and a half cuz it has mechanical issues… it's almost midnight. \n\nThe ferry is an hour and a 45 minutes long, IF we get moving! I've never been on a ferry that has had mechanical issues before! (And I've been on a lot of ferries). I wonder what happens if we all have to get off…how do we get off?! It's a bunch of cars! Do we reverse off?? Do we have to abandon our cars?!\n\nUPDATE:\n\nWe've just been told they can't fix the issue so all vehicle and foot passengers will be disembarking…how i do not know! Lol\n\nWe've been in our car for about 2 hours! We went upstairs briefly to the main deck to get a coffee but that was closed too!\n\nOnce we disembark we'll be heading back to my dad's to stay overnight….at about 1am! Lol",
-  "by": "Caitlin McColl 🇨🇦"
- },
- "t342414385": {
-  "text": "Your voice matters. Stop second-guessing yourself and let it shine through.\n\nOn Dec 29, 2022, my second Substack post ever was on why I write.\n\nSitting here three and a half years later, I’m still defining why I write.\n\nBut going back to the beginning reminded me that I started writing because I wanted to see more content written by women and underrepresented voices.\n\nAnd if I wanted that, I’d have to start to with me.\n\nWhat struck me about going back was how that theme has been there throughout my time here. It’s just it lost its potency along the way.\n\nBut it goes to show — The answers for why you’re here are in you somewhere. Let them out. We need to hear your voice.",
+ "t346072849": {
+  "text": "I was so inspired by today, that I’ve been experimenting with all the things!\n\nHere’s one of at least three of those experiments. 👩🏻‍🔬🔬\n\nI tried animating the cover photos for my Tuesday personal essays.\n\nI gave the images to Claude Code and asked it to create gifs of the images zooming in and out.\n\nI thought I liked what it made (AI is so cool!!) so I shipped it.\n\nNow I think it’s a little too… robotic. 😂🤖\n\nI can’t change it for awhile, so if you want to check it out, mosey on over to Step Up Step Together’s home page! It won’t be there for long. 😆\n\nThank you @Natalie Nicholson for the inspiration and @AI Meets Girlboss 🦩 for the constant inspiration to test animated cover photos!",
   "by": "Alyssa Fu Ward, PhD"
  },
- "post-214601672": {
-  "text": "#4 / growing up in between",
-  "by": null
+ "t346074038": {
+  "text": "That's a wrap on my first ever live.\n\nAmal's too, actually. Two first-timers. I sounded like I was rambling and Amal was just a natural. Calm, collected, like she'd done this a hundred times.\n\nTechnical gremlins showed up on cue. Video down. Sound down. Black screen for a stretch that felt a lot longer than it probably was.\n\nIf I were still in television, that kind of dead air would've gotten me in hot soup. Black screen is rule number one you never break. Thankfully, nobody fires you from your own garden.\n\nThe bit that stuck with me: when she said most people don't even know Tunisia exists. I think we should've played up the Star Wars thing more as the hook, then revealed the real Tunisia underneath.\n\nI’ll be sharing the replay and/or a post mortem about it soon. \n\nAnd if the Live we did made you curious about Tunisia, her Substack's the place to actually go plan a trip there. Please reach out to @Traveling Amal!\n\nWe’ll be back.",
+  "by": "Monica Goh"
  },
- "t344799626": {
-  "text": "I’ve been talking recently about doing the “fun” stuff on here: \n\nDM chats, Lives, Supporting Lives, etc. Don’t get me wrong, Engagement is SO important and it is probably my main reason I’m still here.\n\nIf you are limited on time though, how do you choose what to focus on?\n\nComing up with a plan on this for myself and will be sure to share. 😎",
-  "by": "Danielle Wright"
+ "t346157321": {
+  "text": "Watch my coming interview with these 2 beautiful ladies .. coming soon to discuss their chapter together",
+  "by": "Farida Khalaf"
+ },
+ "t346185601": {
+  "text": "Everyone is in the inner chamber now. Well Elian in place of Rowan.  \n\nMonday I’ll give them a problem to solve so we see how it goes.\n\nDamn it’s been a good week!",
+  "by": "Alison MacLellan"
  }
 };
+const RANGE = {"since": "2026-09-25T12:30:00.000Z", "until": "2026-09-26T18:30:00.000Z"};
