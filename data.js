@@ -1,461 +1,5 @@
 const SESSIONS = [
  {
-  "uid": 12281524,
-  "handle": "hodmanmurad",
-  "name": "Hodman | How To Build With AI",
-  "orange": 7,
-  "first_at": "2026-09-25T00:09:56.670Z",
-  "items": [
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Hell yeah go ladies!!!",
-    "link": "https://substack.com/@alyssafuward/note/c-345200633",
-    "responded": true,
-    "thread": "t344818382"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345205039",
-    "responded": false,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 97047241,
-  "handle": "ayushisardana",
-  "name": "Ayushi Sardana",
-  "orange": 3,
-  "first_at": "2026-09-25T00:32:07.432Z",
-  "items": [
-   {
-    "category": "comment",
-    "type": "comment_mention",
-    "body": "I SO love to see these lists with women rising! Congratulations , @Alyssa Fu Ward, PhD and everyone on the list ❤️\n\nAnd you also found me another great find who I wasn’t subscribed to yet - @Kristina Bogović\n\nYay!! Thank you!",
-    "link": "https://substack.com/@alyssafuward/note/c-345212148",
-    "responded": true,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 1055730,
-  "handle": "dinahbeingme",
-  "name": "Dinah",
-  "orange": 3,
-  "first_at": "2026-09-25T01:02:20.236Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345189288",
-    "responded": false,
-    "thread": "t344818382"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "At some point I will probably look at it",
-    "link": "https://substack.com/@alyssafuward/note/c-345227272",
-    "responded": false,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 103815489,
-  "handle": "charleneprincebirkeland",
-  "name": "charlene prince birkeland",
-  "orange": 0,
-  "first_at": "2026-09-25T02:14:22.013Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345114282",
-    "responded": false,
-    "thread": "t345055539"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Oh….tell her she’s making Car Art! I have lots of those,too😂",
-    "link": "https://substack.com/@alyssafuward/note/c-345262358",
-    "responded": true,
-    "thread": "t345055539"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345113846",
-    "responded": false,
-    "thread": "t345055539"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "I hid the good under the collage :) Trust me.😂",
-    "link": "https://substack.com/@alyssafuward/note/c-345263015",
-    "responded": true,
-    "thread": "t345055539"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345263237",
-    "responded": false,
-    "thread": "t345055539"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345262684",
-    "responded": false,
-    "thread": "t345055539"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Thank you, means a lot.❤️ I’m working on luxuriating in the slowness of making art. A dance teacher gave me that as an improv prompt and it’s the single best phrase I remember to stop rushing through my work.",
-    "link": "https://substack.com/@alyssafuward/note/c-345264852",
-    "responded": true,
-    "thread": "t345055539"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 97047241,
-  "handle": "shebuildswithai",
-  "name": "Ayushi",
-  "orange": 3,
-  "first_at": "2026-09-25T02:39:00.051Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345255151",
-    "responded": false,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 280514971,
-  "handle": "kristinabogovic",
-  "name": "Kristina Bogović",
-  "orange": 6,
-  "first_at": "2026-09-25T02:39:00.051Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345255151",
-    "responded": false,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 25473479,
-  "handle": "ajlol",
-  "name": "AJ Lee",
-  "orange": 6,
-  "first_at": "2026-09-25T05:44:12.290Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345335861",
-    "responded": false,
-    "thread": "t345294433"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "They were cute but way messy and so much work 😂",
-    "link": "https://substack.com/@alyssafuward/note/c-345340980",
-    "responded": true,
-    "thread": "t345294433"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345341385",
-    "responded": false,
-    "thread": "t345294433"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 31587167,
-  "handle": "caitlinmccoll",
-  "name": "Caitlin McColl 🇨🇦",
-  "orange": 5,
-  "first_at": "2026-09-25T05:44:19.500Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345340478",
-    "responded": false,
-    "thread": "t345339079"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Thanks! I actually have 42 articles scheduled lol (and 6 in drafts that I just need to reschedule again cuz I've been moving stuff around 😄",
-    "link": "https://substack.com/@alyssafuward/note/c-345341172",
-    "responded": true,
-    "thread": "t345339079"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345341263",
-    "responded": false,
-    "thread": "t345339079"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "I have no life 😄🤣😂\n\nJoking/not Joking lol",
-    "link": "https://substack.com/@alyssafuward/note/c-345342341",
-    "responded": true,
-    "thread": "t345339079"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 362428399,
-  "handle": "miakiraki",
-  "name": "Mia Kiraki 🎭",
-  "orange": 2,
-  "first_at": "2026-09-25T06:12:19.692Z",
-  "items": [
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "thank you thank you, it’s so nice over here! :)",
-    "link": "https://substack.com/@alyssafuward/note/c-345350657",
-    "responded": true,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 31587167,
-  "handle": "caitlinmccoll",
-  "name": "Caitlin McColl 🇨🇦",
-  "orange": 5,
-  "first_at": "2026-09-25T06:43:49.858Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345352342",
-    "responded": false,
-    "thread": "t345339079"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Aww thank you! 😊🥰\n\nAnd yeah i guess I don't really second guess my stuff, for the most part. Like sometimes I wonder how people will receive it.. \n\nBut for the most parr I just write lol",
-    "link": "https://substack.com/@alyssafuward/note/c-345363168",
-    "responded": true,
-    "thread": "t345339079"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 29135280,
-  "handle": "katrinlaz",
-  "name": "Katherine Lazarevich",
-  "orange": 7,
-  "first_at": "2026-09-25T07:03:13.683Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-344976217",
-    "responded": false,
-    "thread": "t331144942"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "I completely understand what you mean 🤗 It’s good to be reminded of it.",
-    "link": "https://substack.com/@alyssafuward/note/c-345369357",
-    "responded": false,
-    "thread": "t331144942"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 31587167,
-  "handle": "caitlinmccoll",
-  "name": "Caitlin McColl 🇨🇦",
-  "orange": 5,
-  "first_at": "2026-09-25T07:27:45.280Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345377334",
-    "responded": false,
-    "thread": "t345339079"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345377899",
-    "responded": false,
-    "thread": "t345364371"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "It really is!!! I wish we could just get off somehow and we could go back to my dad's ans get a different ferry tomorrow.  Or from a different port…",
-    "link": "https://substack.com/@alyssafuward/note/c-345378614",
-    "responded": true,
-    "thread": "t345364371"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345378920",
-    "responded": false,
-    "thread": "t345364371"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "We've just been told they can't fix the issue so all vehicle and foot passengers will be disembarking…how i do not know! Lol\n\nWe've been in our car for about 2 hours! We went upstairs briefly to the main deck to get a coffee but that was closed too!",
-    "link": "https://substack.com/@alyssafuward/note/c-345379953",
-    "responded": true,
-    "thread": "t345364371"
-   },
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345380657",
-    "responded": false,
-    "thread": "t345364371"
-   },
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Thank you! I assume they have a process… lol they said it'll be 1 car at a time…  but thankfully the ferry was 60% empty so hopefully it won't take TOO long!",
-    "link": "https://substack.com/@alyssafuward/note/c-345381099",
-    "responded": true,
-    "thread": "t345364371"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 415027717,
-  "handle": "aimeetsgirlboss",
-  "name": "AI Meets Girlboss 🦩",
-  "orange": 6,
-  "first_at": "2026-09-25T08:11:56.933Z",
-  "items": [
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "same energy every time, honestly 🦩🩷",
-    "link": "https://substack.com/@alyssafuward/note/c-345394256",
-    "responded": true,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": true
- },
- {
-  "uid": 280514971,
-  "handle": "kristinabogovic",
-  "name": "Kristina Bogović",
-  "orange": 6,
-  "first_at": "2026-09-25T08:36:08.736Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345380780",
-    "responded": false,
-    "thread": "t344621574"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 362428399,
-  "handle": "miakiraki",
-  "name": "Mia Kiraki 🎭",
-  "orange": 2,
-  "first_at": "2026-09-25T11:22:00.003Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345352396",
-    "responded": false,
-    "thread": "t344818382"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 8361546,
-  "handle": "drjackieblack",
-  "name": "Dr. Jackie Black",
-  "orange": 5,
-  "first_at": "2026-09-25T11:25:23.871Z",
-  "items": [
-   {
-    "category": "comment",
-    "type": "note_reply",
-    "body": "Presence is the key, isn’t it, Alyssa?",
-    "link": "https://substack.com/@alyssafuward/note/c-345476451",
-    "responded": true,
-    "thread": "t344806795"
-   }
-  ],
-  "responded": true
- },
- {
   "uid": 415027717,
   "handle": "aimeetsgirlboss",
   "name": "AI Meets Girlboss 🦩",
@@ -472,42 +16,6 @@ const SESSIONS = [
    }
   ],
   "responded": true
- },
- {
-  "uid": 362428399,
-  "handle": "miakiraki",
-  "name": "Mia Kiraki 🎭",
-  "orange": 2,
-  "first_at": "2026-09-25T12:53:25.440Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "post_like",
-    "body": "",
-    "link": "https://alyssafuward.substack.com",
-    "responded": false,
-    "thread": "post-217026849"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 29135280,
-  "handle": "katrinlaz",
-  "name": "Katherine Lazarevich",
-  "orange": 7,
-  "first_at": "2026-09-25T12:53:25.440Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "post_like",
-    "body": "",
-    "link": "https://alyssafuward.substack.com",
-    "responded": false,
-    "thread": "post-217026849"
-   }
-  ],
-  "responded": false
  },
  {
   "uid": 4848460,
@@ -582,6 +90,24 @@ const SESSIONS = [
   "responded": false
  },
  {
+  "uid": 29135280,
+  "handle": "katrinlaz",
+  "name": "Katherine Lazarevich",
+  "orange": 7,
+  "first_at": "2026-09-25T12:53:25.440Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "post_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com",
+    "responded": false,
+    "thread": "post-217026849"
+   }
+  ],
+  "responded": false
+ },
+ {
   "uid": 354634571,
   "handle": "crankthatnat",
   "name": "Natalie Nicholson",
@@ -622,6 +148,24 @@ const SESSIONS = [
   "handle": "thehumansintheloopai",
   "name": "Heather Baker",
   "orange": 6,
+  "first_at": "2026-09-25T12:53:25.440Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "post_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com",
+    "responded": false,
+    "thread": "post-217026849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 362428399,
+  "handle": "miakiraki",
+  "name": "Mia Kiraki 🎭",
+  "orange": 2,
   "first_at": "2026-09-25T12:53:25.440Z",
   "items": [
    {
@@ -938,24 +482,6 @@ const SESSIONS = [
   "responded": true
  },
  {
-  "uid": 31587167,
-  "handle": "caitlinmccoll",
-  "name": "Caitlin McColl 🇨🇦",
-  "orange": 5,
-  "first_at": "2026-09-25T16:11:03.133Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345683600/comment/345683600",
-    "responded": false,
-    "thread": "t345683600"
-   }
-  ],
-  "responded": false
- },
- {
   "uid": 354634571,
   "handle": "crankthatnat",
   "name": "Natalie Nicholson",
@@ -1012,6 +538,24 @@ const SESSIONS = [
    }
   ],
   "responded": true
+ },
+ {
+  "uid": 31587167,
+  "handle": "caitlinmccoll",
+  "name": "Caitlin McColl 🇨🇦",
+  "orange": 5,
+  "first_at": "2026-09-25T16:11:03.133Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345683600/comment/345683600",
+    "responded": false,
+    "thread": "t345683600"
+   }
+  ],
+  "responded": false
  },
  {
   "uid": 2075986,
@@ -1356,42 +900,6 @@ const SESSIONS = [
   "responded": true
  },
  {
-  "uid": 97047241,
-  "handle": "shebuildswithai",
-  "name": "Ayushi",
-  "orange": 3,
-  "first_at": "2026-09-25T18:52:43.832Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345805235/comment/345805235",
-    "responded": false,
-    "thread": "t345805235"
-   }
-  ],
-  "responded": false
- },
- {
-  "uid": 31587167,
-  "handle": "caitlinmccoll",
-  "name": "Caitlin McColl 🇨🇦",
-  "orange": 5,
-  "first_at": "2026-09-25T18:52:43.832Z",
-  "items": [
-   {
-    "category": "like",
-    "type": "note_like",
-    "body": "",
-    "link": "https://substack.com/@alyssafuward/note/c-345805235/comment/345805235",
-    "responded": false,
-    "thread": "t345805235"
-   }
-  ],
-  "responded": false
- },
- {
   "uid": 307564370,
   "handle": "julietyates",
   "name": "Juliet Yates, PhD",
@@ -1416,6 +924,24 @@ const SESSIONS = [
    }
   ],
   "responded": true
+ },
+ {
+  "uid": 31587167,
+  "handle": "caitlinmccoll",
+  "name": "Caitlin McColl 🇨🇦",
+  "orange": 5,
+  "first_at": "2026-09-25T18:52:43.832Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345805235/comment/345805235",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
  },
  {
   "uid": 403484282,
@@ -1508,6 +1034,24 @@ const SESSIONS = [
   "responded": false
  },
  {
+  "uid": 97047241,
+  "handle": "shebuildswithai",
+  "name": "Ayushi",
+  "orange": 3,
+  "first_at": "2026-09-25T18:52:43.832Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345805235/comment/345805235",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
+ },
+ {
   "uid": 3267186,
   "handle": "futurecomputer",
   "name": "Jason Ives",
@@ -1585,7 +1129,7 @@ const SESSIONS = [
     "type": "note_reply",
     "body": "I HAD NO IDEA you can play flute!! I love learning new things about you.",
     "link": "https://substack.com/@alyssafuward/note/c-345822931",
-    "responded": false,
+    "responded": true,
     "thread": "t345805235"
    },
    {
@@ -1975,11 +1519,11 @@ const SESSIONS = [
     "type": "note_reply",
     "body": "yep! sorry forgot to update lol Made it off. Got to my dad’s about 1:30am. Got up at 5am…got the first ferry at 6:15 home…got home at 8:30ish. Went to bed again at about 9:20am for a couple hours…",
     "link": "https://substack.com/@alyssafuward/note/c-345824395",
-    "responded": false,
+    "responded": true,
     "thread": "t345364371"
    }
   ],
-  "responded": false
+  "responded": true
  },
  {
   "uid": 3267186,
@@ -2687,7 +2231,7 @@ const SESSIONS = [
     "type": "comment_mention",
     "body": "@Alyssa Fu Ward, PhD is the real lifter-upper, positive force, bright light around here! I swear she has the energy of the sun! ☀️ and Fran, you also radiate some serious positive vibes too! They are the calming, everything’s-ok kind ❤️",
     "link": "https://substack.com/@alyssafuward/note/c-345909872",
-    "responded": false,
+    "responded": true,
     "thread": "t345805235"
    },
    {
@@ -2695,11 +2239,27 @@ const SESSIONS = [
     "type": "note_reply",
     "body": "I really do wish I could start every day speaking with you Alyssa  🥹",
     "link": "https://substack.com/@alyssafuward/note/c-345910135",
-    "responded": false,
+    "responded": true,
     "thread": "t345805235"
+   },
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/345914728",
+    "responded": false,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/345920968",
+    "responded": false,
+    "thread": "post-217026849"
    }
   ],
-  "responded": false
+  "responded": true
  },
  {
   "uid": 4848460,
@@ -2723,9 +2283,33 @@ const SESSIONS = [
     "link": "https://substack.com/@alyssafuward/note/c-345906360",
     "responded": false,
     "thread": "t345082314"
+   },
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/345914728",
+    "responded": false,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "comment",
+    "type": "comment_reply",
+    "body": "Yes, and how do you connect the videos and sound, and how you keep us watching until the very end? Haha, that is a skill.\n\nI think we forget how much we want to slow down and just see what it can like through someone else’s examples... I needed that today, my friend.",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/345919189",
+    "responded": true,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/345920968",
+    "responded": false,
+    "thread": "post-217026849"
    }
   ],
-  "responded": false
+  "responded": true
  },
  {
   "uid": 312558646,
@@ -2747,11 +2331,11 @@ const SESSIONS = [
     "type": "note_reply",
     "body": "😢literally so crushed",
     "link": "https://substack.com/@alyssafuward/note/c-345912455",
-    "responded": false,
+    "responded": true,
     "thread": "t345882578"
    }
   ],
-  "responded": false
+  "responded": true
  },
  {
   "uid": 498585530,
@@ -2765,148 +2349,2212 @@ const SESSIONS = [
     "type": "note_reply",
     "body": "lol yeah!",
     "link": "https://substack.com/@alyssafuward/note/c-345915002",
-    "responded": false,
+    "responded": true,
     "thread": "t342011907"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 307564370,
+  "handle": "julietyates",
+  "name": "Juliet Yates, PhD",
+  "orange": 3,
+  "first_at": "2026-09-25T21:40:24.750Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345909449",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 125053513,
+  "handle": "butwhyai",
+  "name": "Justyna Kustrin",
+  "orange": 0,
+  "first_at": "2026-09-25T22:13:31.880Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "It works though…! Fucking finally. I’ll refine it ON SUNDAY and maybe share with you lot, in case it’s useful. Even though my inner critic is already whispering “don’t be ridiculous, everyone here is way above you and your silly automations“🫣",
+    "link": "https://substack.com/@alyssafuward/note/c-345935743",
+    "responded": true,
+    "thread": "t345920583"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345929671",
+    "responded": false,
+    "thread": "t345920583"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 312558646,
+  "handle": "benfordtalentalchemy",
+  "name": "Jen Benford",
+  "orange": 7,
+  "first_at": "2026-09-25T22:26:33.011Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345915759",
+    "responded": false,
+    "thread": "t345882578"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "🩷",
+    "link": "https://substack.com/@alyssafuward/note/c-345943087",
+    "responded": false,
+    "thread": "t345882578"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "This is so cute I cannot even!!! 🍊🍊",
+    "link": "https://substack.com/@alyssafuward/note/c-345945948",
+    "responded": true,
+    "thread": "t345944550"
+   },
+   {
+    "category": "restack",
+    "type": "restack",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Too much beauty in one frame 😍",
+    "link": "https://substack.com/@alyssafuward/note/c-345946319",
+    "responded": true,
+    "thread": "t345805235"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345946884",
+    "responded": false,
+    "thread": "t345944550"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345946782",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Once I am up and running I would love to have you do a guest speaking session in the community if you are open to it! Maybe a little ai workshop type thang",
+    "link": "https://substack.com/@alyssafuward/note/c-345947622",
+    "responded": true,
+    "thread": "t345944550"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345948163",
+    "responded": false,
+    "thread": "t345944550"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "💜",
+    "link": "https://substack.com/@alyssafuward/note/c-345948532",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 307564370,
+  "handle": "julietyates",
+  "name": "Juliet Yates, PhD",
+  "orange": 3,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 214754003,
+  "handle": "alisonmaclellan",
+  "name": "Alison MacLellan",
+  "orange": 6,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Sneak peaks are the best!",
+    "link": "https://substack.com/@alyssafuward/note/c-345957203",
+    "responded": true,
+    "thread": "t345944550"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Ha!\n\nI shaved mine at the beginning of Covid. There’s a time for everything. And your hair looks lovely. My daughter also looks gorgeous with short hair. \n\nLast time I told my therapist I was thinking of shaving it all off again she gave me the breath advice. :)",
+    "link": "https://substack.com/@alyssafuward/note/c-345958256",
+    "responded": true,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345959236",
+    "responded": false,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345959523",
+    "responded": false,
+    "thread": "t345944550"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Live is too short to not be a bit silly.",
+    "link": "https://substack.com/@alyssafuward/note/c-345965363",
+    "responded": true,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345964879",
+    "responded": false,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345966641",
+    "responded": false,
+    "thread": "t345683600"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 502708437,
+  "handle": "drchristinereeve",
+  "name": "Christine Reeve, Ph.D, BCBA-D",
+  "orange": 2,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives (Iverson)",
+  "orange": 0,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 150763465,
+  "handle": "thehumanarc",
+  "name": "The Human ARC",
+  "orange": 2,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 99056004,
+  "handle": "benlatini",
+  "name": "Ben Latini",
+  "orange": 2,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 519772038,
+  "handle": "codelikealittleoldlady",
+  "name": "Code Like A Little Old Lady",
+  "orange": 2,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 19372668,
+  "handle": "socialbutterflygroup",
+  "name": "Karen Michaels 🦋",
+  "orange": 4,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 175109053,
+  "handle": "leadershipunscripted",
+  "name": "Sam ~ Leadership Unscripted",
+  "orange": 3,
+  "first_at": "2026-09-25T22:31:02.142Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345944550/comment/345944550",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 413384073,
+  "handle": "reclaimingai",
+  "name": "Chantelle Tavares",
+  "orange": 0,
+  "first_at": "2026-09-25T22:49:29.014Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Ma'am, where exactly were you when I shaved my entire head bald 10 yrs ago? Clearly, I haven't grown it back. Lol",
+    "link": "https://substack.com/@alyssafuward/note/c-345955455",
+    "responded": true,
+    "thread": "t345683600"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "🙂. Love this so much! Re: #1 -- It took me a whole menty-b 5 yrs ago to stop pegging my worth on what I produced. And it is so FREEING to just be me and know that my true worth is rooted in something else. So my question for you is: what do you think makes you valuable Alyssa? \n\nAnd if you feel stuck, I'm sure all your subbies here will remind you of what it is 🦄❤️",
+    "link": "https://substack.com/@alyssafuward/note/c-345959877",
+    "responded": true,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345959236",
+    "responded": false,
+    "thread": "t345683600"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Ya'll are too kind. Thank you. When I did it my husband came into the bathroom stared at me and went… “Well, atleast now you know you're head ain't shaped funny”. We laughed abt it and then I never looked back! 😆",
+    "link": "https://substack.com/@alyssafuward/note/c-345962773",
+    "responded": true,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345964425",
+    "responded": false,
+    "thread": "t345683600"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 354654544,
+  "handle": "thesiabrat",
+  "name": "Monica Goh",
+  "orange": 3,
+  "first_at": "2026-09-25T23:02:30.195Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "It’s extra special when it comes from friends and family!",
+    "link": "https://substack.com/@alyssafuward/note/c-345962422",
+    "responded": true,
+    "thread": "t344935760"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives (Iverson)",
+  "orange": 0,
+  "first_at": "2026-09-25T23:29:50.499Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345974246",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 82162421,
+  "handle": "frandavis",
+  "name": "Fran Davis",
+  "orange": 2,
+  "first_at": "2026-09-25T23:40:34.407Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Thank you for that Natalie! If only you could see all the turmoil underneath the calm. 😂",
+    "link": "https://substack.com/@alyssafuward/note/c-345981117",
+    "responded": true,
+    "thread": "t345805235"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345982211",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-25T23:46:27.683Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345982211",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 31587167,
+  "handle": "caitlinmccoll",
+  "name": "Caitlin McColl 🇨🇦",
+  "orange": 5,
+  "first_at": "2026-09-25T23:54:55.701Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345973993",
+    "responded": false,
+    "thread": "t345364371"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "yes! a bit! still tired but…don’t have any plans today…(plus it’s chilly and grey and rainy (though it’s dry right now). so yay",
+    "link": "https://substack.com/@alyssafuward/note/c-345988172",
+    "responded": true,
+    "thread": "t345364371"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345989041",
+    "responded": false,
+    "thread": "t345364371"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 354654544,
+  "handle": "thesiabrat",
+  "name": "Monica Goh",
+  "orange": 3,
+  "first_at": "2026-09-25T23:56:18.968Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345675425",
+    "responded": false,
+    "thread": "t345366398"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345965000",
+    "responded": false,
+    "thread": "t344935760"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 103815489,
+  "handle": "charleneprincebirkeland",
+  "name": "Charlene Prince Birkeland",
+  "orange": 0,
+  "first_at": "2026-09-25T23:56:35.052Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "You are so freaking clever. I love this!",
+    "link": "https://substack.com/@alyssafuward/note/c-345988713",
+    "responded": true,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 214754003,
+  "handle": "alisonmaclellan",
+  "name": "Alison MacLellan",
+  "orange": 6,
+  "first_at": "2026-09-26T00:04:23.325Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345986433",
+    "responded": false,
+    "thread": "t345980233"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 150763465,
+  "handle": "thehumanarc",
+  "name": "Amy Benner Anand",
+  "orange": 2,
+  "first_at": "2026-09-26T00:42:36.191Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "No not this time. I have 3 products I’ve been building so I should probably try to get them out the door at some point vs make something new.",
+    "link": "https://substack.com/@alyssafuward/note/c-346010045",
+    "responded": true,
+    "thread": "t345802140"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 385070114,
+  "handle": "codelikeagirl",
+  "name": "Code Like A Girl",
+  "orange": 2,
+  "first_at": "2026-09-26T00:44:49.553Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345974791",
+    "responded": false,
+    "thread": "t342552559"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-26T01:03:59.895Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346003659",
+    "responded": false,
+    "thread": "t289403231"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "haha i love that visual! Graceful above water, swimming little feet below",
+    "link": "https://substack.com/@alyssafuward/note/c-346030396",
+    "responded": true,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "TY lady 🙏 having fun getting reacquainted with Midjourney tonight!",
+    "link": "https://substack.com/@alyssafuward/note/c-346035304",
+    "responded": false,
+    "thread": "t346027668"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346034179",
+    "responded": false,
+    "thread": "t346027668"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346033654",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 103815489,
+  "handle": "charleneprincebirkeland",
+  "name": "charlene prince birkeland",
+  "orange": 0,
+  "first_at": "2026-09-26T01:08:41.968Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345989151",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 63626954,
+  "handle": "judyossello",
+  "name": "Judy Ossello (AI Mechanic)",
+  "orange": 4,
+  "first_at": "2026-09-26T01:24:20.929Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "She is so much better after a day with an IV and a clear diagnosis. I want to say that I’ll sleep so much better tonight, but I think I want to see the progress.",
+    "link": "https://substack.com/@alyssafuward/note/c-346028583",
+    "responded": true,
+    "thread": "t345874022"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 63626954,
+  "handle": "judyossello",
+  "name": "Judy Ossello (AI Mechanic)",
+  "orange": 4,
+  "first_at": "2026-09-26T02:19:46.445Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346033805",
+    "responded": false,
+    "thread": "t345874022"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 415027717,
+  "handle": "aimeetsgirlboss",
+  "name": "AI Meets Girlboss",
+  "orange": 6,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 214754003,
+  "handle": "alisonmaclellan",
+  "name": "Alison MacLellan",
+  "orange": 6,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 502708437,
+  "handle": "drchristinereeve",
+  "name": "Christine Reeve, Ph.D, BCBA-D",
+  "orange": 2,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 39437056,
+  "handle": "sarahennett",
+  "name": "Sarah Ennett - Seeking Ikigai",
+  "orange": 5,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 36077477,
+  "handle": "lyndoman",
+  "name": "Lyndon Antcliff",
+  "orange": 2,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 439546804,
+  "handle": "theeverydaysprint",
+  "name": "Danielle Wright",
+  "orange": 5,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 394741552,
+  "handle": "genaiunplugged",
+  "name": "Dheeraj Sharma",
+  "orange": 3,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 23811299,
+  "handle": "drawntocyber",
+  "name": "drawntocyber",
+  "orange": 2,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "This is so cool 😎 I was trying to animate my sketchnote which I like for a while now. Finally I was able to get it as close to how I want it. Tomorrow I am sharing the first one! I used codex for this. \n\nInstead of using other animated tools, code based animation is much reliable I guess. \n\nIdea of animating thumbnails is excellent. Maybe I will try it too!",
+    "link": "https://substack.com/@alyssafuward/note/c-346077184",
+    "responded": true,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 529889741,
+  "handle": "davidkraase",
+  "name": "David Kraase",
+  "orange": 6,
+  "first_at": "2026-09-26T03:13:57.789Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346072849",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Alyssa, upon reading your note I immediately traveled to your posts tab to check it out! Not going to lie, looks pretty legit and thank you for creating them to animate in the same direction! Just a little UI/UX design tip but your readers will appreciate it :) Awesome idea!",
+    "link": "https://substack.com/@alyssafuward/note/c-346076207",
+    "responded": true,
+    "thread": "t346072849"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346081664",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "I don’t care what the powerpoint guidelines say - - the animation transitions made the presentation! Now, how many can we fit in one slide?? lol",
+    "link": "https://substack.com/@alyssafuward/note/c-346082709",
+    "responded": true,
+    "thread": "t346072849"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346086283",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 97047241,
+  "handle": "ayushisardana",
+  "name": "Ayushi Sardana",
+  "orange": 3,
+  "first_at": "2026-09-26T03:14:26.466Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Love it! I am going to try that. I have been trying to learn how to make video thumbnails without much success.",
+    "link": "https://substack.com/@alyssafuward/note/c-346074798",
+    "responded": true,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "This looks exciting! If the final bit does not show up in my feed, please fel free to tag me 🤩",
+    "link": "https://substack.com/@alyssafuward/note/c-346075807",
+    "responded": true,
+    "thread": "t345944550"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346077677",
+    "responded": false,
+    "thread": "t345944550"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 415027717,
+  "handle": "aimeetsgirlboss",
+  "name": "AI Meets Girlboss",
+  "orange": 6,
+  "first_at": "2026-09-26T04:18:53.451Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346081205",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 502708437,
+  "handle": "drchristinereeve",
+  "name": "Christine Reeve, Ph.D, BCBA-D",
+  "orange": 2,
+  "first_at": "2026-09-26T04:18:53.451Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346081205",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 97047241,
+  "handle": "shebuildswithai",
+  "name": "Ayushi",
+  "orange": 3,
+  "first_at": "2026-09-26T04:18:53.451Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346081205",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Oh wow! This exists. Thank you, Alyssa!",
+    "link": "https://substack.com/@alyssafuward/note/c-346097821",
+    "responded": true,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives (Iverson)",
+  "orange": 0,
+  "first_at": "2026-09-26T04:21:20.072Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346098335",
+    "responded": false,
+    "thread": "t346074038"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "That was my good deed for that day, speaking up like that 😂",
+    "link": "https://substack.com/@alyssafuward/note/c-346098766",
+    "responded": true,
+    "thread": "t346074038"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 308717288,
+  "handle": "carrierfile",
+  "name": "Anna Sutton",
+  "orange": 5,
+  "first_at": "2026-09-26T04:21:20.072Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346098335",
+    "responded": false,
+    "thread": "t346074038"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives (Iverson)",
+  "orange": 0,
+  "first_at": "2026-09-26T05:09:06.992Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346113721",
+    "responded": false,
+    "thread": "t346074038"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Turns out you know a lot of lip readers, apparently!",
+    "link": "https://substack.com/@alyssafuward/note/c-346113954",
+    "responded": true,
+    "thread": "t346074038"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 415027717,
+  "handle": "aimeetsgirlboss",
+  "name": "AI Meets Girlboss",
+  "orange": 6,
+  "first_at": "2026-09-26T06:42:20.248Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346080827",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346113803",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "I looove this! Animated covers are still quite rare so it’s a great way to stand out. Thank you so much for the shoutout.🩷",
+    "link": "https://substack.com/@alyssafuward/note/c-346144091",
+    "responded": true,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 23811299,
+  "handle": "drawntocyber",
+  "name": "drawntocyber",
+  "orange": 2,
+  "first_at": "2026-09-26T06:42:20.248Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346080827",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "I will share it with you for sure! Thank you for sharing the recs 😊",
+    "link": "https://substack.com/@alyssafuward/note/c-346143881",
+    "responded": true,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 502708437,
+  "handle": "drchristinereeve",
+  "name": "Christine Reeve, Ph.D, BCBA-D",
+  "orange": 2,
+  "first_at": "2026-09-26T06:43:17.558Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346113803",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 97047241,
+  "handle": "shebuildswithai",
+  "name": "Ayushi",
+  "orange": 3,
+  "first_at": "2026-09-26T06:43:17.558Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346113803",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 445239,
+  "handle": "mickey2shoes",
+  "name": "Michael",
+  "orange": 4,
+  "first_at": "2026-09-26T07:02:30.799Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "I find the Psycho-social framework of Reciprocal Dialogue applied to Claude works really well for context conversational continuity. What are you working on?",
+    "link": "https://substack.com/@alyssafuward/note/c-346149853",
+    "responded": false,
+    "thread": "t345181171"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 47192869,
+  "handle": "faridakhalaf",
+  "name": "Farida Khalaf",
+  "orange": 6,
+  "first_at": "2026-09-26T07:24:37.663Z",
+  "items": [
+   {
+    "category": "restack",
+    "type": "restack_quote",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346157321",
+    "responded": false,
+    "thread": "t346157321"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 233127857,
+  "handle": "iwasgonnadoit",
+  "name": "Aniko",
+  "orange": 3,
+  "first_at": "2026-09-26T07:34:36.536Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Same here. With AI it's so easy to get started with everything, but it's still very difficult to cross the finish line.\n\nA product is never finished, is it. 😁",
+    "link": "https://substack.com/@alyssafuward/note/c-346160658",
+    "responded": true,
+    "thread": "t345802140"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346015868",
+    "responded": false,
+    "thread": "t345802140"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 23811299,
+  "handle": "drawntocyber",
+  "name": "drawntocyber",
+  "orange": 2,
+  "first_at": "2026-09-26T08:17:20.297Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346145904",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 415027717,
+  "handle": "aimeetsgirlboss",
+  "name": "AI Meets Girlboss",
+  "orange": 6,
+  "first_at": "2026-09-26T08:57:26.366Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346145976",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 502708437,
+  "handle": "drchristinereeve",
+  "name": "Christine Reeve, Ph.D, BCBA-D",
+  "orange": 2,
+  "first_at": "2026-09-26T08:57:26.366Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346145976",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 1055730,
+  "handle": "dinahbeingme",
+  "name": "Dinah",
+  "orange": 3,
+  "first_at": "2026-09-26T08:57:26.366Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346145976",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 109753600,
+  "handle": "marinatjetland",
+  "name": "Marina Tjetland",
+  "orange": 0,
+  "first_at": "2026-09-26T09:05:22.157Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "post_reply",
+    "body": "What a beautiful story! ❤️ I can relate to not feeling like I belong. I felt like an outsider in my own country. I was asked so many times where I was actually from, but I didn't have a clear answer because I didn't know who my father was. From there, my story goes the other way, and I hope I can share it one day.\n\nI loved how you started your article with a comic strip! I am a comic artist and a guide to drawing simple comics for self-understanding and reflection. Your two panels convey so much emotion and set the premise of your story.\n\n@KaroZieminski recommended you, and I am happy she did. I am looking forward to reading more about you and your stories.",
+    "link": "https://alyssafuward.substack.com/p/4-child-of-immigrants/comment/346192574",
+    "responded": false,
+    "thread": "post-214601672"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 29135280,
+  "handle": "katrinlaz",
+  "name": "Katherine Lazarevich",
+  "orange": 7,
+  "first_at": "2026-09-26T09:20:45.488Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345976340",
+    "responded": false,
+    "thread": "t342414385"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Thank you, Alyssa! 🤗 Yes, Wonderland it is.\n\nI appreciate you sharing your experience. Your subscriber list is 10x bigger than mine, so it's a much bigger responsibility! I hope I can keep it light when and if my numbers grow that big, but I'm not sure. And it's good to know that there is someone nearby who can relate.🌸",
+    "link": "https://substack.com/@alyssafuward/note/c-346199090",
+    "responded": true,
+    "thread": "t342414385"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 516382679,
+  "handle": "tinamary1",
+  "name": "Tina Mary",
+  "orange": 6,
+  "first_at": "2026-09-26T10:31:26.386Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/3-vulnerability-hangover/comment/345840596",
+    "responded": false,
+    "thread": "post-213434596"
+   },
+   {
+    "category": "comment",
+    "type": "comment_reply",
+    "body": "https://substack.com/@tinamary1/note/p-215482417?r=8jfvfb\n\n🙏🙂",
+    "link": "https://alyssafuward.substack.com/p/3-vulnerability-hangover/comment/346224981",
+    "responded": false,
+    "thread": "post-213434596"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 480125677,
+  "handle": "novarixstudio",
+  "name": "Clayton H",
+  "orange": 6,
+  "first_at": "2026-09-26T11:46:46.437Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Look forward to seeing more of your work @Natalie Nicholson ! 🤍",
+    "link": "https://substack.com/@alyssafuward/note/c-346258860",
+    "responded": true,
+    "thread": "t339935903"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 410973165,
+  "handle": "shiikooh",
+  "name": "Shi Kang'ethe",
+  "orange": 7,
+  "first_at": "2026-09-26T12:07:09.991Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "It's so refreshing to see this🤗🤗🤗",
+    "link": "https://substack.com/@alyssafuward/note/c-346269397",
+    "responded": true,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 415027717,
+  "handle": "aimeetsgirlboss",
+  "name": "AI Meets Girlboss",
+  "orange": 6,
+  "first_at": "2026-09-26T12:17:01.708Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345916547",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Nat is the brightest star, love her beautiful spirit🩷🦩",
+    "link": "https://substack.com/@alyssafuward/note/c-346274983",
+    "responded": true,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 308717288,
+  "handle": "carrierfile",
+  "name": "Anna Sutton",
+  "orange": 5,
+  "first_at": "2026-09-26T12:17:01.708Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345916547",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-26T14:17:04.551Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "The inspo was-a-flowin-yesterday on this end too because of you Alyssa!! Love that you’re playing with animation, it really is such a powerful way to grab your eye",
+    "link": "https://substack.com/@alyssafuward/note/c-346351184",
+    "responded": true,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives (Iverson)",
+  "orange": 0,
+  "first_at": "2026-09-26T14:39:54.450Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346367553",
+    "responded": false,
+    "thread": "t346074038"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 233127857,
+  "handle": "iwasgonnadoit",
+  "name": "Aniko",
+  "orange": 3,
+  "first_at": "2026-09-26T14:47:08.467Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346366980",
+    "responded": false,
+    "thread": "t345802140"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-26T14:54:31.005Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "hahah ohhh I’m so excited! And that 💪 is so appropriate!! How on earth are you doing all this so fast, you are a power-house! ♡",
+    "link": "https://substack.com/@alyssafuward/note/c-346378375",
+    "responded": true,
+    "thread": "t346072849"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346355754",
+    "responded": false,
+    "thread": "t346072849"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 13158830,
+  "handle": "mackcollier",
+  "name": "Mack Collier",
+  "orange": 4,
+  "first_at": "2026-09-26T15:08:50.826Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Look at you two brilliant humans!",
+    "link": "https://substack.com/@alyssafuward/note/c-346389085",
+    "responded": true,
+    "thread": "t345805235"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346393388",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 214754003,
+  "handle": "alisonmaclellan",
+  "name": "Alison MacLellan",
+  "orange": 6,
+  "first_at": "2026-09-26T15:17:07.083Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346331619",
+    "responded": false,
+    "thread": "t346185601"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives (Iverson)",
+  "orange": 0,
+  "first_at": "2026-09-26T15:17:07.083Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346331619",
+    "responded": false,
+    "thread": "t346185601"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 201169102,
+  "handle": "shannonbindler",
+  "name": "Shannon Bindler",
+  "orange": 0,
+  "first_at": "2026-09-26T15:23:00.942Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Don’t burn it down! We love you 🥰",
+    "link": "https://substack.com/@alyssafuward/note/c-346399707",
+    "responded": true,
+    "thread": "t345683600"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346401246",
+    "responded": false,
+    "thread": "t345683600"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Wooohooooo!!! You know I’m here for it ✨✨✨",
+    "link": "https://substack.com/@alyssafuward/note/c-346405561",
+    "responded": false,
+    "thread": "t345683600"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 308717288,
+  "handle": "carrierfile",
+  "name": "Anna Sutton",
+  "orange": 5,
+  "first_at": "2026-09-26T15:52:19.991Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "comment_mention",
+    "body": "😂 and it was my good deed to back you up, @Jason Ives . That feels like so long ago @Alyssa Fu Ward, PhD and congrats @Monica Goh !!!!",
+    "link": "https://substack.com/@alyssafuward/note/c-346420344",
+    "responded": false,
+    "thread": "t346074038"
+   },
+   {
+    "category": "comment",
+    "type": "comment_mention",
+    "body": "Where am I? What’s happening over here? Oooh!!! This is cool!!!! @Amy Benner Anand  thank you @Alyssa Fu Ward, PhD ! Can’t wait to follow the build so exciting! I’m getting my morning journal ready to pick up from the printer, it goes along with my personal dash board & I highly recommend it!",
+    "link": "https://substack.com/@alyssafuward/note/c-346424902",
+    "responded": false,
+    "thread": "t345877031"
+   },
+   {
+    "category": "comment",
+    "type": "comment_mention",
+    "body": "Awww @Alyssa Fu Ward, PhD you have a new piece out!! I can’t wait to read it!!!! ❤️",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/346425489",
+    "responded": true,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "comment",
+    "type": "comment_reply",
+    "body": "Thank you @Katherine Lazarevich that means a lot to me! I follow your own work & really love what you’re up to!",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/346426098",
+    "responded": false,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Can I bookmark this note so I always see it first in the app???? ✨ love you two & can’t wait to hear & read your chapters in @SheWritesAI  AI Everywhere!! 📚",
+    "link": "https://substack.com/@alyssafuward/note/c-346429935",
+    "responded": true,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "comment_mention",
+    "body": "I’m 100% on board for this new audiobook format @Jason Ives @Alyssa Fu Ward, PhD @Natalie Nicholson",
+    "link": "https://substack.com/@alyssafuward/note/c-346431127",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "comment_reply",
+    "body": "Same! 👏🌟💛",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/346432486",
+    "responded": false,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Noooo! Don’t do that to my favorite sunshine beams! I am shocked, sir, that you’d go there.",
+    "link": "https://substack.com/@alyssafuward/note/c-346434369",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 29135280,
+  "handle": "katrinlaz",
+  "name": "Katherine Lazarevich",
+  "orange": 7,
+  "first_at": "2026-09-26T16:05:25.184Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "comment_reply",
+    "body": "Thank you, Anna! Likewise. I’m so happy we connected 💖",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/346429658",
+    "responded": false,
+    "thread": "post-217026849"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346363355",
+    "responded": false,
+    "thread": "t342414385"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Thank you, Alyssa! I’ll try to remember this when I start overthinking every post 🙃 I’m glad we found each other here.",
+    "link": "https://substack.com/@alyssafuward/note/c-346435149",
+    "responded": false,
+    "thread": "t342414385"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-26T16:06:26.531Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346379213",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "🙌🙌 The momentum is incredible to witness!",
+    "link": "https://substack.com/@alyssafuward/note/c-346431375",
+    "responded": false,
+    "thread": "t346072849"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346360998",
+    "responded": false,
+    "thread": "t339935903"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "NO U ARE 🥲😘",
+    "link": "https://substack.com/@alyssafuward/note/c-346432575",
+    "responded": true,
+    "thread": "t339935903"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 3267186,
+  "handle": "futurecomputer",
+  "name": "Jason Ives",
+  "orange": 0,
+  "first_at": "2026-09-26T16:09:20.495Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Creepy-twins-from-horror-movie style, por favor",
+    "link": "https://substack.com/@alyssafuward/note/c-346432451",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Unfortunately I do have a strange mind.",
+    "link": "https://substack.com/@alyssafuward/note/c-346434929",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Put this idea in your back pocket for a Halloween edition.",
+    "link": "https://substack.com/@alyssafuward/note/c-346451986",
+    "responded": false,
+    "thread": "t345805235"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 116460887,
+  "handle": "laurencicco",
+  "name": "Lauren Ciccomascolo",
+  "orange": 6,
+  "first_at": "2026-09-26T16:12:01.239Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "You got this!",
+    "link": "https://substack.com/@alyssafuward/note/c-346434457",
+    "responded": true,
+    "thread": "t345683600"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 214754003,
+  "handle": "alisonmaclellan",
+  "name": "Alison MacLellan",
+  "orange": 6,
+  "first_at": "2026-09-26T16:17:36.117Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Thank you! I got very obsessed yesterday",
+    "link": "https://substack.com/@alyssafuward/note/c-346438675",
+    "responded": true,
+    "thread": "t346185601"
+   }
+  ],
+  "responded": true
+ },
+ {
+  "uid": 354634571,
+  "handle": "crankthatnat",
+  "name": "Natalie Nicholson",
+  "orange": 1,
+  "first_at": "2026-09-26T16:35:07.048Z",
+  "items": [
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "I mean I’m not completely opposed🤣 🧟‍♀️🧟‍♀️",
+    "link": "https://substack.com/@alyssafuward/note/c-346451498",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Got it tucked away for October 🫡",
+    "link": "https://substack.com/@alyssafuward/note/c-346453631",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "Haha I love you Anna",
+    "link": "https://substack.com/@alyssafuward/note/c-346454889",
+    "responded": false,
+    "thread": "t345805235"
+   },
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346468570",
+    "responded": false,
+    "thread": "t339935903"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 29135280,
+  "handle": "katrinlaz",
+  "name": "Katherine Lazarevich",
+  "orange": 7,
+  "first_at": "2026-09-26T17:23:39.521Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/346469022",
+    "responded": false,
+    "thread": "post-217026849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 308717288,
+  "handle": "carrierfile",
+  "name": "Anna Sutton",
+  "orange": 5,
+  "first_at": "2026-09-26T17:23:39.521Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "comment_like",
+    "body": "",
+    "link": "https://alyssafuward.substack.com/p/weekly-field-notes-sep-25-2026/comment/346469022",
+    "responded": false,
+    "thread": "post-217026849"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 154095217,
+  "handle": "wildsite",
+  "name": "Erin-Marie Driscoll",
+  "orange": 2,
+  "first_at": "2026-09-26T17:41:03.496Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-345686243",
+    "responded": false,
+    "thread": "t345060635"
+   },
+   {
+    "category": "comment",
+    "type": "note_reply",
+    "body": "🙏💃🏻",
+    "link": "https://substack.com/@alyssafuward/note/c-346497474",
+    "responded": false,
+    "thread": "t345060635"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 214754003,
+  "handle": "alisonmaclellan",
+  "name": "Alison MacLellan",
+  "orange": 6,
+  "first_at": "2026-09-26T17:56:31.082Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346468416",
+    "responded": false,
+    "thread": "t346185601"
+   }
+  ],
+  "responded": false
+ },
+ {
+  "uid": 308717288,
+  "handle": "carrierfile",
+  "name": "Anna Sutton",
+  "orange": 5,
+  "first_at": "2026-09-26T18:23:23.553Z",
+  "items": [
+   {
+    "category": "like",
+    "type": "note_like",
+    "body": "",
+    "link": "https://substack.com/@alyssafuward/note/c-346472979",
+    "responded": false,
+    "thread": "t345805235"
    }
   ],
   "responded": false
  }
 ];
 const THREAD_LABELS = {
- "t345874902": {
-  "text": "It’s the end of a whirlwind of a week, but it was so fun! \n\nExcited to get a little “offline” time this weekend, but why is that so hard to do with Substack?! 🤪😬😅",
-  "by": "Danielle Wright"
+ "t345767025": {
+  "text": "Me saving articles on Substack is like frantically dog-earing ALL PAGES in a book 🤦‍♀️",
+  "by": "Ayushi Sardana"
  },
- "t339935903": {
-  "text": "I made this AI video from one character sheet and one storyboard.\n\nBefore I opened Seedance, every shot was already decided.\n\nThat changed what I was asking Seedance to do: animate the story instead of inventing it.\n\nCharacter → Storyboard → Video.",
-  "by": "Clayton H"
- },
- "t345524528": {
-  "text": "Dropping some random Friday inspiration. 🩷🦩\n\nRoaming the streets and shops in Madrid’s art district, and this reminded me of my good friend @Alyssa Fu Ward, PhD. A combination of her oranges and the shade of blue she likes. 🍊💙",
-  "by": "AI Meets Girlboss 🦩"
- },
- "t345339079": {
-  "text": "My articles coming up the rest of the month!",
-  "by": "Caitlin McColl 🇨🇦"
- },
- "post-217026849": {
-  "text": "Weekly Field Notes | Sep 25, 2026",
-  "by": null
- },
- "t344969940": {
-  "text": "New addition to the Substack Runway I'm highlighting women joining the AI Meets Girlboss community. They get a page in my Sketchbook, a little runway celebrating women building distinctive worlds on Substack.\n\nThis one highlights @Dr Teodora Szasz of Standout Systems by Teodora. Thank you @Alyssa Fu Ward, PhD for nominating Teodora. I appreciate when women support women.\n\nTeodora spends her weekdays building AI products and shaping business strategy, then spends her Substack teaching senior AI/ML professionals the one skill their job description forgot to mention: making their own work visible.\n\n📐 Her look is called Ledger of Proof, a structured navy power suit with fine gold ledger-line embroidery tracing the lapels, because she's spent her career turning quiet expertise into a case too solid to talk over.\n\nDo you want your own page in the sketchbook? Submit it through the link below and get 25% off your annual subscription to AI Meets Girlboss.\n\nhttps://aimeetsgirlboss.lovable.app/sketchbook/womens-runway",
-  "by": "AI Meets Girlboss 🦩"
+ "t342552559": {
+  "text": "86% of women in tech now use AI at work every week. \n\nThe old double standard came along for the ride.\n\nIn WIRED's 2026 Women in Tech Survey of 634 women, 86% said they use AI for work at least a few times a week. \n\nAdoption is not the story. The story is whose AI-assisted work gets praised and whose gets picked apart: women in the survey described sloppy output waved through when a man shipped it and the same work penalized when they did.\n\nA tool sold as the great leveler is absorbing the field's existing bias. \n\nNaming that now is the only way it does not get baked into the next decade of defaults.",
+  "by": "Code Like A Girl"
  },
  "t345805235": {
   "text": "My morning just got SO bright because I got to meet with the wonderful, soul-uplifting @Natalie Nicholson !\n\nWe were supposed to record the voiceover for our chapter for AI Everywhere Vol 4, but we had too much to catch up on. (But it will get done, we promise, @Karen Smiley !).\n\nI wish everyone could be so lucky to start their day chatting with Natalie. (Including me haha.) ❤️❤️",
   "by": "Alyssa Fu Ward, PhD"
  },
- "t345366398": {
-  "text": "Chang'e has company on the moon. There's a jade rabbit pounding medicine, and an osmanthus tree that can never be cut down. The osmanthus blooms around this time of year, so of course Mae and I had to put it everywhere.\n\nThe moon rabbit isn't only ours either. It turns up in Korea's Chuseok, Japan's Tsukimi and Vietnam's Tết Trung Thu. Same moon, different stories.\n\nWhich makes me curious about yours. \n\nDoes your culture have a night like this—a night to look up, give thanks or go home? (I guess that's Thanksgiving, huh.) Or is there a festival coming up the rest of us should know about? Tell me in the comments. I'll read every one.\n\nP.S. Easter egg in the picture!\n\nHint: It's fluffy.",
-  "by": "Monica Goh"
- },
- "t345055539": {
-  "text": "I’ve been working on the same piece of art in my journal since last Saturday. I goofed on the cactus yesterday and instead of stopping, I realized I could simply cover it up with a collage. I think my letter to watercolor last week is working.",
-  "by": "Charlene Prince Birkeland"
- },
- "t345802140": {
-  "text": "It was almost a year ago that I entered a hackathon to build with fellow-minded women. Even though I didn’t make the cut to officially participate, I still built an app in 48 hours. And documented my process. https://iwasgonnadoit.substack.com/p/the-vibe-coding-diaries-how-to-vibe\n\nNow, Lovable is starting the 4th round of their SheBuilds hackathon. My mind is not in ideation mode so I won’t, but I’d encourage everyone to give it a go. There is nothing more satisfying than building with others, whilst learning from experts. 😉\n\nGo and apply here and show us what you create: https://shebuilds.lovable.app/",
-  "by": "Aniko"
- },
- "t345720382": {
-  "text": "@Alyssa Fu Ward, PhD is one of those people I met on here, and instantly felt like I knew forever. But to get to know her even better through these field notes has been such a gift! \n\nWatching you do foldology just made my brain relax. Seeing @Anna Sutton’s article in here made my heart happy. And reading your daughter’s poem had my jaw dropped to the floor. It honestly gave me the goosebumps.",
-  "by": "Natalie Nicholson"
- },
- "t345364371": {
-  "text": "Ugh.  We've been stuck on a ferry not moving for an hour and a half cuz it has mechanical issues… it's almost midnight. \n\nThe ferry is an hour and a 45 minutes long, IF we get moving! I've never been on a ferry that has had mechanical issues before! (And I've been on a lot of ferries). I wonder what happens if we all have to get off…how do we get off?! It's a bunch of cars! Do we reverse off?? Do we have to abandon our cars?!\n\nUPDATE:\n\nWe've just been told they can't fix the issue so all vehicle and foot passengers will be disembarking…how i do not know! Lol\n\nWe've been in our car for about 2 hours! We went upstairs briefly to the main deck to get a coffee but that was closed too!\n\nOnce we disembark we'll be heading back to my dad's to stay overnight….at about 1am! Lol",
-  "by": "Caitlin McColl 🇨🇦"
- },
- "t345877031": {
-  "text": "A few days ago I shared a note saying I was ready to figure out what it would look like to operate like 2-3 of me. \n\nWell, I’m doing it.\n\nI’m building Cécile, my own visual, proactive AI system, in public. I have a pretty clear idea of what I want her to become and absolutely no expectation that I’ll get there in a straight line.\n\nSo if you’re curious about personal agents and automations or what comes after the chat box, come trial-and-error your way through it with me.\n\nI’ll share what I build, what works, what breaks, and what I change my mind about. And maybe at he end I’ll have something resembling a product but very TBD.",
-  "by": "Amy Benner Anand"
- },
- "t345882578": {
-  "text": "Lost a duck today. Absolutely heartbroken because it was one of a bonded pair and only 6 months old. And because I loved him and raised him from when he was so tiny. Brie our duck is wandering and looking for Gorgie. \n\nHad to spring into action and some new flock mates because we have two separate groups and she is lonely. \n\nDoes not get easier and my heart hurts Not the fun part of having a little microfarm, especially as an animal lover  and empath. I can only hope he did not suffer.\n\nEff you today, mother nature. 🙁🩷",
-  "by": "Jen Benford✨"
- },
- "t342011907": {
-  "text": "There is a check in my pipeline that has never once returned a failure.\n\nFor a long time I read that as reliability. \n\nThen I asked what would actually have to happen for it to fail, and worked out that nothing would. \n\nIt cannot fail. \n\nIt was never checking anything.\n\nWhat is yours? \n\nThe one that has been green so long you stopped reading it.",
-  "by": "Sumaiya Shrabony"
- },
- "t345558847": {
-  "text": "6:30am - finally on our way home! On the hour 45 min ferry ⛴️ \n\nSee for context:\n\nhttps://substack.com/@caitlinmccoll/note/c-345523074?r=it0tb",
-  "by": "Caitlin McColl 🇨🇦"
- },
- "t345509132": {
-  "text": "I don’t restack my own stuff\n\nDoes it work?\n\nI think I did it once or twice and I thought sod this, if others don’t think it good enough to restack, why should I\n\nI wonder if I’m missing something here",
-  "by": "Lyndon Antcliff"
- },
- "t344806795": {
-  "text": "Confidence isn’t believing you’re enough.\n\nIt’s forgetting to keep score in the first place. ✨",
-  "by": "Shannon Bindler"
+ "t346072849": {
+  "text": "I was so inspired by today, that I’ve been experimenting with all the things!\n\nHere’s one of at least three of those experiments. 👩🏻‍🔬🔬\n\nI tried animating the cover photos for my Tuesday personal essays.\n\nI gave the images to Claude Code and asked it to create gifs of the images zooming in and out.\n\nI thought I liked what it made (AI is so cool!!) so I shipped it.\n\nNow I think it’s a little too… robotic. 😂🤖\n\nI can’t change it for awhile, so if you want to check it out, mosey on over to Step Up Step Together’s home page! It won’t be there for long. 😆\n\nThank you @Natalie Nicholson for the inspiration and @AI Meets Girlboss 🦩 for the constant inspiration to test animated cover photos!",
+  "by": "Alyssa Fu Ward, PhD"
  },
  "t345082314": {
   "text": "What if, we just practice no reliance on anything external.",
   "by": "anna levitt 🫧"
  },
- "t345294433": {
-  "text": "Mooncake is just a shape and we stuffed burgers into a mooncake mold. It looked way better in the instagram reel we saw.",
-  "by": "AJ Lee"
+ "post-217026849": {
+  "text": "Weekly Field Notes | Sep 25, 2026",
+  "by": null
  },
- "t345874022": {
-  "text": "My dog is very sick and so I thought I’d run an AI experiment to make it really easy to notice what “helpful” AI edits can do to your Substack post.\n\nThis kind of stuff is calming and fun for me.\n\nI’ve included my favorite bad decision + all the regrets prompts as well as what they did to my favorite scene from Steel Magnolias.",
-  "by": "Judy Ossello (AI Mechanic)"
+ "t345366398": {
+  "text": "Chang'e has company on the moon. There's a jade rabbit pounding medicine, and an osmanthus tree that can never be cut down. The osmanthus blooms around this time of year, so of course Mae and I had to put it everywhere.\n\nThe moon rabbit isn't only ours either. It turns up in Korea's Chuseok, Japan's Tsukimi and Vietnam's Tết Trung Thu. Same moon, different stories.\n\nWhich makes me curious about yours. \n\nDoes your culture have a night like this—a night to look up, give thanks or go home? (I guess that's Thanksgiving, huh.) Or is there a festival coming up the rest of us should know about? Tell me in the comments. I'll read every one.\n\nP.S. Easter egg in the picture!\n\nHint: It's fluffy.",
+  "by": "Monica Goh"
  },
- "t344621574": {
-  "text": "I told my anxiety we should talk things through. \n\nIt said, great, let's schedule it for 1 a.m. every night forever.",
-  "by": "Kristina Bogović"
+ "t345802140": {
+  "text": "It was almost a year ago that I entered a hackathon to build with fellow-minded women. Even though I didn’t make the cut to officially participate, I still built an app in 48 hours. And documented my process. https://iwasgonnadoit.substack.com/p/the-vibe-coding-diaries-how-to-vibe\n\nNow, Lovable is starting the 4th round of their SheBuilds hackathon. My mind is not in ideation mode so I won’t, but I’d encourage everyone to give it a go. There is nothing more satisfying than building with others, whilst learning from experts. 😉\n\nGo and apply here and show us what you create: https://shebuilds.lovable.app/",
+  "by": "Aniko"
  },
- "t342553964": {
-  "text": "Seniority does not shield women in tech from harassment. \n\nThe longer they stay, the more of it they report.\n\nIn WIRED's 2026 Women in Tech Survey of 634 women, more than a third said they had experienced gender-based harassment or bias at work, and the likelihood rose with time in the field. \n\nThat is the opposite of how tenure is supposed to work. \n\nYears are meant to buy standing and safety, and instead they stack up incidents. \n\nCompanies that track harassment by tenure, rather than writing it off as early-career growing pains, would finally see the pattern they keep missing.",
-  "by": "Code Like A Girl"
+ "t345980233": {
+  "text": "Husband called to chat with me, but I was so in the zone I have no idea what we talked about. I think he’s on his way home and told me when he’d be here. \n\nI feel kind of bad about that. But the zone!!!!!!",
+  "by": "Alison MacLellan"
+ },
+ "t345839982": {
+  "text": "I invite you to do this today:",
+  "by": "Caitlin McColl 🇨🇦"
+ },
+ "t345524528": {
+  "text": "Dropping some random Friday inspiration. 🩷🦩\n\nRoaming the streets and shops in Madrid’s art district, and this reminded me of my good friend @Alyssa Fu Ward, PhD. A combination of her oranges and the shade of blue she likes. 🍊💙",
+  "by": "AI Meets Girlboss 🦩"
  },
  "t344818382": {
   "text": "Your ladies are taking over the Technology Rising list!\n\nStep Up Step Together is #85! (Thank you @Anna Sutton for your support!)\n\nAnd congratulations to the other fabulous ladies who brighten up this corner of Substack with your heart, passion, and unparalleled expertise. Let’s goooo! 🚀🥳🎉\n\n#22 @Shae O.\n\n#42 @Mia Kiraki 🎭\n\n#81 @Kristina Bogović\n\n#85 @Alyssa Fu Ward, PhD\n\n#86 @Rebecca Spitzer\n\n#91 @AI Meets Girlboss 🦩\n\nCongratulations queens!\n\nAnd thank you @Calder Quinn for the heads up!",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t345509132": {
+  "text": "I don’t restack my own stuff\n\nDoes it work?\n\nI think I did it once or twice and I thought sod this, if others don’t think it good enough to restack, why should I\n\nI wonder if I’m missing something here",
+  "by": "Lyndon Antcliff"
+ },
+ "t345882578": {
+  "text": "Lost a duck today. Absolutely heartbroken because it was one of a bonded pair and only 6 months old. And because I loved him and raised him from when he was so tiny. Brie our duck is wandering and looking for Gorgie. \n\nHad to spring into action and some new flock mates because we have two separate groups and she is lonely. \n\nDoes not get easier and my heart hurts Not the fun part of having a little microfarm, especially as an animal lover  and empath. I can only hope he did not suffer.\n\nEff you today, mother nature. 🙁🩷",
+  "by": "Jen Benford✨"
+ },
+ "t345683600": {
+  "text": "I’m having one of those burn-down-everything-I’ve-written-and-start-over days.\n\nSomehow it always seems to coincide with publish-a-new-article days, hmmm. 🤔\n\nThis is when I try to remind myself of a few things:\n\n1) I don’t want my self-worth and well-being to be tied to how many people respond to or Like my posts. I want to be glad that I did it at all and trust that it will reach the people it’s meant to when it’s meant to.\n\n2) I want to appreciate the people who drop by and made the decision to Like or respond. That’s where my focus should go.\n\n3) Embrace the unknown, girl, c’mon.It’s hard not to put pressure on myself when I have over 1000 subscribers now (!! Thank you for being here!) and unsubcribes every time I post a new article. But I’m trying to hold on to my intention that I’m still learning here, I want to experiment, and I know so many of you are here for the ride.\n\nWhew, okay, now that that’s out there, I can go back to my real life. \n\n\n\nSpeaking of real, @Natalie Nicholson and I are going to be doing our voiceover recording for the chapter we wrote for AI Everywhere Vol 4! Just the pep-me-up that I need. 😁 We are so excited to share this article with you so soon!",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t346074038": {
+  "text": "That's a wrap on my first ever live.\n\nAmal's too, actually. Two first-timers. I sounded like I was rambling and Amal was just a natural. Calm, collected, like she'd done this a hundred times.\n\nTechnical gremlins showed up on cue. Video down. Sound down. Black screen for a stretch that felt a lot longer than it probably was.\n\nIf I were still in television, that kind of dead air would've gotten me in hot soup. Black screen is rule number one you never break. Thankfully, nobody fires you from your own garden.\n\nThe bit that stuck with me: when she said most people don't even know Tunisia exists. I think we should've played up the Star Wars thing more as the hook, then revealed the real Tunisia underneath.\n\nI’ll be sharing the replay and/or a post mortem about it soon. \n\nAnd if the Live we did made you curious about Tunisia, her Substack's the place to actually go plan a trip there. Please reach out to @Traveling Amal!\n\nWe’ll be back.",
+  "by": "Monica Goh"
+ },
+ "t345558847": {
+  "text": "6:30am - finally on our way home! On the hour 45 min ferry ⛴️ \n\nSee for context:\n\nhttps://substack.com/@caitlinmccoll/note/c-345523074?r=it0tb",
+  "by": "Caitlin McColl 🇨🇦"
+ },
+ "t346185601": {
+  "text": "Everyone is in the inner chamber now. Well Elian in place of Rowan.  \n\nMonday I’ll give them a problem to solve so we see how it goes.\n\nDamn it’s been a good week!",
+  "by": "Alison MacLellan"
+ },
+ "t345471043": {
+  "text": "🙏🏻-mantis wishing you a lucky weekend ✨",
+  "by": "Jen Benford✨"
+ },
+ "t344935760": {
+  "text": "My mom said she liked my Weekly Field Notes. She very rarely reads what I write. So this feels really special. 🥹😭❤️",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t345874902": {
+  "text": "It’s the end of a whirlwind of a week, but it was so fun! \n\nExcited to get a little “offline” time this weekend, but why is that so hard to do with Substack?! 🤪😬😅",
+  "by": "Danielle Wright"
+ },
+ "t346157321": {
+  "text": "Watch my coming interview with these 2 beautiful ladies .. coming soon to discuss their chapter together",
+  "by": "Farida Khalaf"
+ },
+ "t342011907": {
+  "text": "There is a check in my pipeline that has never once returned a failure.\n\nFor a long time I read that as reliability. \n\nThen I asked what would actually have to happen for it to fail, and worked out that nothing would. \n\nIt cannot fail. \n\nIt was never checking anything.\n\nWhat is yours? \n\nThe one that has been green so long you stopped reading it.",
+  "by": "Sumaiya Shrabony"
+ },
+ "t345720382": {
+  "text": "@Alyssa Fu Ward, PhD is one of those people I met on here, and instantly felt like I knew forever. But to get to know her even better through these field notes has been such a gift! \n\nWatching you do foldology just made my brain relax. Seeing @Anna Sutton’s article in here made my heart happy. And reading your daughter’s poem had my jaw dropped to the floor. It honestly gave me the goosebumps.",
+  "by": "Natalie Nicholson"
+ },
+ "t343636161": {
+  "text": "My daughter got this wacko Rubik’s Cube called an Axis cube for her birthday.\n\nWe finally scrambled it.\n\nThen we tried to solve it.\n\nWe couldn’t figure it out, so we looked up a tutorial video.\n\nTwo minutes in, and she’s already figuring it out.\n\nI want my turn. 😆",
+  "by": "Alyssa Fu Ward, PhD"
+ },
+ "t345181171": {
+  "text": "I’m just here, staring at my Claude, hoping it’ll return a flowchart that will help me make sense of a complicated mess.\n\nBut seriously, AI is incredible. I just pointed it to a ton of conversations, and it’s helping me piece together all the threads and details.\n\nAnd then I get to do what I do best and ask other humans human questions to get human answers that the AI can then incorporate back into my flowchart.\n\nAmazing. 🤩❤️",
   "by": "Alyssa Fu Ward, PhD"
  },
  "post-213434596": {
   "text": "#3 / vulnerability hangover",
   "by": null
  },
- "t345839982": {
-  "text": "I invite you to do this today:",
-  "by": "Caitlin McColl 🇨🇦"
+ "t345877031": {
+  "text": "A few days ago I shared a note saying I was ready to figure out what it would look like to operate like 2-3 of me. \n\nWell, I’m doing it.\n\nI’m building Cécile, my own visual, proactive AI system, in public. I have a pretty clear idea of what I want her to become and absolutely no expectation that I’ll get there in a straight line.\n\nSo if you’re curious about personal agents and automations or what comes after the chat box, come trial-and-error your way through it with me.\n\nI’ll share what I build, what works, what breaks, and what I change my mind about. And maybe at he end I’ll have something resembling a product but very TBD.",
+  "by": "Amy Benner Anand"
  },
- "t344935760": {
-  "text": "My mom said she liked my Weekly Field Notes. She very rarely reads what I write. So this feels really special. 🥹😭❤️",
-  "by": "Alyssa Fu Ward, PhD"
+ "t345874022": {
+  "text": "My dog is very sick and so I thought I’d run an AI experiment to make it really easy to notice what “helpful” AI edits can do to your Substack post.\n\nThis kind of stuff is calming and fun for me.\n\nI’ve included my favorite bad decision + all the regrets prompts as well as what they did to my favorite scene from Steel Magnolias.",
+  "by": "Judy Ossello (AI Mechanic)"
  },
- "t344799626": {
-  "text": "I’ve been talking recently about doing the “fun” stuff on here: \n\nDM chats, Lives, Supporting Lives, etc. Don’t get me wrong, Engagement is SO important and it is probably my main reason I’m still here.\n\nIf you are limited on time though, how do you choose what to focus on?\n\nComing up with a plan on this for myself and will be sure to share. 😎",
-  "by": "Danielle Wright"
+ "t342553964": {
+  "text": "Seniority does not shield women in tech from harassment. \n\nThe longer they stay, the more of it they report.\n\nIn WIRED's 2026 Women in Tech Survey of 634 women, more than a third said they had experienced gender-based harassment or bias at work, and the likelihood rose with time in the field. \n\nThat is the opposite of how tenure is supposed to work. \n\nYears are meant to buy standing and safety, and instead they stack up incidents. \n\nCompanies that track harassment by tenure, rather than writing it off as early-career growing pains, would finally see the pattern they keep missing.",
+  "by": "Code Like A Girl"
  },
- "t345471043": {
-  "text": "🙏🏻-mantis wishing you a lucky weekend ✨",
-  "by": "Jen Benford✨"
+ "t344806795": {
+  "text": "Confidence isn’t believing you’re enough.\n\nIt’s forgetting to keep score in the first place. ✨",
+  "by": "Shannon Bindler"
  },
- "t331144942": {
-  "text": "Today we walked around Paris, watching people in the Luxembourg Gardens and the Tuileries Garden. Someone was reading a paper book, someone else was writing something in a large notebook. Maybe a book?\n\nCrowds of people were exercising, others were eating sandwiches with friends.\n\nIn the evening, it was the same scene again, only this time along the Seine. People were living their best lives offline. 😄\n\nWhat agents? What AI?",
-  "by": "Katherine Lazarevich"
- },
- "t345767025": {
-  "text": "Me saving articles on Substack is like frantically dog-earing ALL PAGES in a book 🤦‍♀️",
-  "by": "Ayushi Sardana"
+ "t345060635": {
+  "text": "Woo celebrating 9 weeks and 9 articles on Substack! We keep going. 💃🏻🧡✨",
+  "by": "Erin-Marie Driscoll"
  },
  "t345612310": {
   "text": "Give yourself permission to be a grown-up kid by playing games with your children. 🤪\n\nIf the directions are unclear, sit shoulder to shoulder and look up how-to videos.\n\nShow them that learning together can be fun!\n\nYou might even discover that laughter and brain twists are an excellent combo for connecting with your kids. ❤️",
   "by": "Straight Talk from a Tutor"
  },
- "t345683600": {
-  "text": "I’m having one of those burn-down-everything-I’ve-written-and-start-over days.\n\nSomehow it always seems to coincide with publish-a-new-article days, hmmm. 🤔\n\nThis is when I try to remind myself of a few things:\n\n1) I don’t want my self-worth and well-being to be tied to how many people respond to or Like my posts. I want to be glad that I did it at all and trust that it will reach the people it’s meant to when it’s meant to.\n\n2) I want to appreciate the people who drop by and made the decision to Like or respond. That’s where my focus should go.\n\n3) Embrace the unknown, girl, c’mon.It’s hard not to put pressure on myself when I have over 1000 subscribers now (!! Thank you for being here!) and unsubcribes every time I post a new article. But I’m trying to hold on to my intention that I’m still learning here, I want to experiment, and I know so many of you are here for the ride.\n\nWhew, okay, now that that’s out there, I can go back to my real life. \n\n\n\nSpeaking of real, @Natalie Nicholson and I are going to be doing our voiceover recording for the chapter we wrote for AI Everywhere Vol 4! Just the pep-me-up that I need. 😁 We are so excited to share this article with you so soon!",
+ "t339935903": {
+  "text": "I made this AI video from one character sheet and one storyboard.\n\nBefore I opened Seedance, every shot was already decided.\n\nThat changed what I was asking Seedance to do: animate the story instead of inventing it.\n\nCharacter → Storyboard → Video.",
+  "by": "Clayton H"
+ },
+ "t345920583": {
+  "text": "Argh. Tonight’s session with Claude took much more of my time and cool than I had originally planned. Not pleased with myself for staying up so late and NOT pleased with Claude for taking me down to dead-ends more than once, and deciding on some utterly bizarre and time- (and token-) consuming actions. \n\nI am officially declaring tomorrow a Substack- and AI-free zone.😮‍💨",
+  "by": "Justyna Kustrin"
+ },
+ "t345944550": {
+  "text": "Today has been such an incredible Substack day. My heart feels so full.\n\nI’ll share more in a bit, but as a thank you to everyone I interacted with today, I created a little surprise.\n\nI’m still working on it, but here is the teensiest little teaser.\n\nI am so excited to share this with you. I can’t stop cackling. 😂🧙\n\n(@Alison MacLellan @Jen Benford✨ there must have been something in the water this week…)",
   "by": "Alyssa Fu Ward, PhD"
  },
- "t343636161": {
-  "text": "My daughter got this wacko Rubik’s Cube called an Axis cube for her birthday.\n\nWe finally scrambled it.\n\nThen we tried to solve it.\n\nWe couldn’t figure it out, so we looked up a tutorial video.\n\nTwo minutes in, and she’s already figuring it out.\n\nI want my turn. 😆",
+ "t289403231": {
+  "text": "I have a new visual identity crush: The Quiet Rebellion by @Jessica .\n\nHer images have such a clear photographic signature. Saturated reds and pinks, retro-glam styling, cinematic lighting, theatrical props, and a powerful direct eye contact!\n\nWhat I appreciate most is the consistency. Every image feels like it belongs to the same world, but without becoming repetitive. For anyone building a visual brand, this is a very good reminder that consistency does not mean using the same template forever. You can do it like Jessica!\n\nThe flamingos approve. 🩷🦩\n\nhttps://www.jointherebellion.rebelarketype.com/p/pretty-doesnt-stop-the-scroll",
+  "by": "AI Meets Girlboss 🦩"
+ },
+ "t344969940": {
+  "text": "New addition to the Substack Runway I'm highlighting women joining the AI Meets Girlboss community. They get a page in my Sketchbook, a little runway celebrating women building distinctive worlds on Substack.\n\nThis one highlights @Dr Teodora Szasz of Standout Systems by Teodora. Thank you @Alyssa Fu Ward, PhD for nominating Teodora. I appreciate when women support women.\n\nTeodora spends her weekdays building AI products and shaping business strategy, then spends her Substack teaching senior AI/ML professionals the one skill their job description forgot to mention: making their own work visible.\n\n📐 Her look is called Ledger of Proof, a structured navy power suit with fine gold ledger-line embroidery tracing the lapels, because she's spent her career turning quiet expertise into a case too solid to talk over.\n\nDo you want your own page in the sketchbook? Submit it through the link below and get 25% off your annual subscription to AI Meets Girlboss.\n\nhttps://aimeetsgirlboss.lovable.app/sketchbook/womens-runway",
+  "by": "AI Meets Girlboss 🦩"
+ },
+ "t346027668": {
+  "text": "Color is ENERGY ⚡️\n\nPalette is MOOD 😎",
+  "by": "Natalie Nicholson"
+ },
+ "t345364371": {
+  "text": "Ugh.  We've been stuck on a ferry not moving for an hour and a half cuz it has mechanical issues… it's almost midnight. \n\nThe ferry is an hour and a 45 minutes long, IF we get moving! I've never been on a ferry that has had mechanical issues before! (And I've been on a lot of ferries). I wonder what happens if we all have to get off…how do we get off?! It's a bunch of cars! Do we reverse off?? Do we have to abandon our cars?!\n\nUPDATE:\n\nWe've just been told they can't fix the issue so all vehicle and foot passengers will be disembarking…how i do not know! Lol\n\nWe've been in our car for about 2 hours! We went upstairs briefly to the main deck to get a coffee but that was closed too!\n\nOnce we disembark we'll be heading back to my dad's to stay overnight….at about 1am! Lol",
+  "by": "Caitlin McColl 🇨🇦"
+ },
+ "t342414385": {
+  "text": "Your voice matters. Stop second-guessing yourself and let it shine through.\n\nOn Dec 29, 2022, my second Substack post ever was on why I write.\n\nSitting here three and a half years later, I’m still defining why I write.\n\nBut going back to the beginning reminded me that I started writing because I wanted to see more content written by women and underrepresented voices.\n\nAnd if I wanted that, I’d have to start to with me.\n\nWhat struck me about going back was how that theme has been there throughout my time here. It’s just it lost its potency along the way.\n\nBut it goes to show — The answers for why you’re here are in you somewhere. Let them out. We need to hear your voice.",
   "by": "Alyssa Fu Ward, PhD"
+ },
+ "post-214601672": {
+  "text": "#4 / growing up in between",
+  "by": null
+ },
+ "t344799626": {
+  "text": "I’ve been talking recently about doing the “fun” stuff on here: \n\nDM chats, Lives, Supporting Lives, etc. Don’t get me wrong, Engagement is SO important and it is probably my main reason I’m still here.\n\nIf you are limited on time though, how do you choose what to focus on?\n\nComing up with a plan on this for myself and will be sure to share. 😎",
+  "by": "Danielle Wright"
  }
 };

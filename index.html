@@ -112,6 +112,18 @@
     border-top-color: var(--bubble);
     z-index: 1;
   }
+  /* Side placements: tail points sideways at the orange instead of down. */
+  .bubble.side-left { transform-origin: right center; }
+  .bubble.side-right { transform-origin: left center; }
+  .bubble.side-left::after, .bubble.side-left::before,
+  .bubble.side-right::after, .bubble.side-right::before {
+    top: var(--tail-y, 50%);
+    border-top-color: transparent;
+  }
+  .bubble.side-left::after { left: 100%; transform: translateY(-50%); border-left-color: var(--bubble-border); }
+  .bubble.side-left::before { left: 100%; transform: translate(-1px, -50%); border-left-color: var(--bubble); }
+  .bubble.side-right::after { left: auto; right: 100%; transform: translateY(-50%); border-right-color: var(--bubble-border); }
+  .bubble.side-right::before { left: auto; right: 100%; transform: translate(1px, -50%); border-right-color: var(--bubble); }
   .bubble.shown {
     opacity: 1;
     transform: scale(1);
@@ -416,10 +428,35 @@ async function playSession(s, sid, stage) {
   const margin = 6;
   const bw = bubble.offsetWidth;
   const bh = bubble.offsetHeight;
-  let bx = restX + ORANGE_SIZE / 2 - bw / 2;
-  let by = restY - bh - 8;
+  // Put the bubble above, left, or right of the orange. Oranges in the lower
+  // part of the room lean toward the sides so the bottom fills in too.
+  const gap = 10;
+  const fitsLeft = restX - bw - gap >= margin;
+  const fitsRight = restX + ORANGE_SIZE + gap + bw <= w - margin;
+  const sideChance = restY > h * 0.55 ? 0.8 : 0.35;
+  let side = null;
+  if ((fitsLeft || fitsRight) && Math.random() < sideChance) {
+    side = fitsLeft && fitsRight ? (Math.random() < 0.5 ? "left" : "right") : (fitsLeft ? "left" : "right");
+  }
+  let bx, by;
+  if (side === "left") {
+    bx = restX - bw - gap;
+    by = restY + ORANGE_SIZE / 2 - bh / 2;
+  } else if (side === "right") {
+    bx = restX + ORANGE_SIZE + gap;
+    by = restY + ORANGE_SIZE / 2 - bh / 2;
+  } else {
+    bx = restX + ORANGE_SIZE / 2 - bw / 2;
+    by = restY - bh - 8;
+  }
   bx = Math.max(margin, Math.min(bx, w - bw - margin));
   by = Math.max(margin, Math.min(by, h - bh - margin));
+  if (side) {
+    bubble.classList.add("side-" + side);
+    // Keep the tail pointing at the orange's middle even after clamping.
+    const tailY = Math.max(10, Math.min(restY + ORANGE_SIZE / 2 - by, bh - 10));
+    bubble.style.setProperty("--tail-y", tailY + "px");
+  }
   bubble.style.left = bx + "px";
   bubble.style.top = by + "px";
   bubble.style.visibility = "visible";
