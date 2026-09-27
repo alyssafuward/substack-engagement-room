@@ -27,7 +27,33 @@
     flex-direction: column;
     overflow: hidden;
   }
-  header { padding: 16px 24px 10px; flex: 0 0 auto; }
+  header {
+    padding: 16px 24px 10px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  #info-btn {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid var(--bubble-border);
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, serif;
+    margin-top: 2px;
+  }
+  #info-btn:hover { border-color: #c65b1f; color: #c65b1f; }
   h1 { margin: 0 0 4px; font-size: 20px; }
   .sub { color: var(--muted); font-size: 13px; }
 
@@ -248,8 +274,11 @@
 </head>
 <body>
 <header>
-  <h1>Engagement Room</h1>
-  <div class="sub" id="dateline">Watch — click any bubble to open the message on Substack.</div>
+  <div>
+    <h1>Engagement Room</h1>
+    <div class="sub" id="dateline">Watch — click any bubble to open the message on Substack.</div>
+  </div>
+  <a id="info-btn" href="history.html" title="Version history">i</a>
 </header>
 <div id="layout">
   <div id="stage-wrap"><div id="stage-col"><h2>Common Room</h2><div id="stage"></div></div></div>

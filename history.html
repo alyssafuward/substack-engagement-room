@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engagement Room — Version History</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%23E07A10' stroke='white' stroke-width='3'/></svg>">
+<style>
+  :root {
+    --bg: #fdf6ee;
+    --ink: #3a2f27;
+    --muted: #8a7a68;
+    --card-border: #d8c4a8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+  }
+  .container { max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; }
+  a.back { color: var(--muted); font-size: 13px; text-decoration: none; }
+  a.back:hover { color: #c65b1f; }
+  h1 { font-size: 20px; margin: 16px 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .entry {
+    border-left: 2px solid var(--card-border);
+    padding: 2px 0 22px 18px;
+    position: relative;
+  }
+  .entry::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c65b1f;
+  }
+  .entry-when { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+  .entry-title { font-size: 15px; font-weight: 600; margin: 3px 0 4px; }
+  .entry-body { font-size: 13px; color: var(--ink); white-space: pre-line; line-height: 1.5; }
+  .entry-links { margin-top: 6px; font-size: 12px; }
+  .entry-links a { color: #c65b1f; text-decoration: none; margin-right: 14px; }
+  .entry-links a:hover { text-decoration: underline; }
+  #status { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">&larr; Back to the room</a>
+  <h1>Version history</h1>
+  <div class="sub">Every pushed version of the Engagement Room, pulled live from GitHub.</div>
+  <div id="list"><div id="status">Loading commit history…</div></div>
+</div>
+<script>
+const REPO = "alyssafuward/substack-engagement-room";
+
+function timeAgo(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+}
+
+async function load() {
+  const listEl = document.getElementById("list");
+  try {
+    const res = await fetch(`https://api.github.com/repos/${REPO}/commits?per_page=100`);
+    if (!res.ok) throw new Error(res.status);
+    const commits = await res.json();
+    listEl.innerHTML = "";
+    commits.forEach(c => {
+      const [title, ...rest] = c.commit.message.split("\n\n");
+      const body = rest.join("\n\n").replace(/\n?Co-Authored-By:.*$/gm, "").trim();
+      const sha = c.sha;
+      const shortSha = sha.slice(0, 7);
+
+      const entry = document.createElement("div");
+      entry.className = "entry";
+
+      const when = document.createElement("div");
+      when.className = "entry-when";
+      when.textContent = timeAgo(c.commit.author.date);
+
+      const titleEl = document.createElement("div");
+      titleEl.className = "entry-title";
+      titleEl.textContent = title;
+
+      entry.appendChild(when);
+      entry.appendChild(titleEl);
+
+      if (body) {
+        const bodyEl = document.createElement("div");
+        bodyEl.className = "entry-body";
+        bodyEl.textContent = body;
+        entry.appendChild(bodyEl);
+      }
+
+      const links = document.createElement("div");
+      links.className = "entry-links";
+      links.innerHTML = `
+        <a href="https://github.com/${REPO}/commit/${sha}" target="_blank" rel="noopener">View diff</a>
+        <a href="https://github.com/${REPO}/blob/${sha}/index.html" target="_blank" rel="noopener">View code (${shortSha})</a>
+      `;
+      entry.appendChild(links);
+
+      listEl.appendChild(entry);
+    });
+    if (!commits.length) listEl.innerHTML = '<div id="status">No commits found.</div>';
+  } catch (e) {
+    listEl.innerHTML = '<div id="status">Couldn\'t load history from GitHub right now — try again in a bit, or see it directly at <a href="https://github.com/' + REPO + '/commits/main" target="_blank" rel="noopener">github.com/' + REPO + '</a>.</div>';
+  }
+}
+
+load();
+</script>
+</body>
+</html>
